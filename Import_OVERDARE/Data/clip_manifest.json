@@ -1,0 +1,2160 @@
+[
+  {
+    "name": "Draw",
+    "frames": 56,
+    "duration": 1.8333,
+    "loop": false,
+    "events": [
+      {
+        "frame": 21,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 0.6667
+      },
+      {
+        "frame": 21,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 0.6667
+      }
+    ],
+    "timeline_start": 1,
+    "module": "MaxicoDraw",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          55,
+          39
+        ]
+      ],
+      "v10_frames": 40,
+      "v10_duration": 1.3
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-hand join/release, slowed x1.40"
+  },
+  {
+    "name": "Idle",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": true,
+    "events": [],
+    "timeline_start": 46,
+    "module": "MaxicoIdle",
+    "role": "v11: 120-frame showcase, two-hand (stance + left-arm IK)"
+  },
+  {
+    "name": "RunStart",
+    "frames": 13,
+    "duration": 0.4,
+    "loop": false,
+    "events": [],
+    "timeline_start": 112,
+    "module": "MaxicoRunStart",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "RunLoop",
+    "frames": 25,
+    "duration": 0.8,
+    "loop": true,
+    "events": [],
+    "timeline_start": 130,
+    "module": "MaxicoRunLoop",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "RunStop",
+    "frames": 13,
+    "duration": 0.4,
+    "loop": false,
+    "events": [],
+    "timeline_start": 160,
+    "module": "MaxicoRunStop",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "Attack1",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": 178,
+    "module": "MaxicoAttack1",
+    "hitAt": 0.8,
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "Attack2",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": 214,
+    "module": "MaxicoAttack2",
+    "hitAt": 0.8,
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "Attack3",
+    "frames": 71,
+    "duration": 2.3333,
+    "loop": false,
+    "events": [
+      {
+        "frame": 23,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.7333
+      },
+      {
+        "frame": 31,
+        "event": "impact",
+        "strength": 1.5,
+        "time": 1.0
+      }
+    ],
+    "timeline_start": 250,
+    "module": "MaxicoAttack3",
+    "hitAt": 1.0,
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          34,
+          18.35
+        ],
+        [
+          70,
+          39
+        ]
+      ],
+      "v10_frames": 40,
+      "v10_duration": 1.3
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "BlockIn",
+    "frames": 14,
+    "duration": 0.4333,
+    "loop": false,
+    "events": [],
+    "timeline_start": 295,
+    "module": "MaxicoBlockIn",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          13,
+          9
+        ]
+      ],
+      "v10_frames": 10,
+      "v10_duration": 0.3
+    },
+    "role": "v11: two-hand diagonal guard (blade screen-right, flat forward), both arms IK, slowed x1.3"
+  },
+  {
+    "name": "BlockHold",
+    "frames": 31,
+    "duration": 1.0,
+    "loop": true,
+    "events": [],
+    "timeline_start": 310,
+    "module": "MaxicoBlockHold",
+    "role": "v11: two-hand diagonal guard (blade screen-right, flat forward), both arms IK"
+  },
+  {
+    "name": "BlockOut",
+    "frames": 18,
+    "duration": 0.5667,
+    "loop": false,
+    "events": [],
+    "timeline_start": 346,
+    "module": "MaxicoBlockOut",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          17,
+          12
+        ]
+      ],
+      "v10_frames": 13,
+      "v10_duration": 0.4
+    },
+    "role": "v11: two-hand diagonal guard (blade screen-right, flat forward), both arms IK, slowed x1.3"
+  },
+  {
+    "name": "CrouchIn",
+    "frames": 19,
+    "duration": 0.6,
+    "loop": false,
+    "events": [],
+    "timeline_start": 1033,
+    "module": "MaxicoCrouchIn",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "CrouchIdle",
+    "frames": 61,
+    "duration": 2.0,
+    "loop": true,
+    "events": [],
+    "timeline_start": 1057,
+    "module": "MaxicoCrouchIdle",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "CrouchOut",
+    "frames": 19,
+    "duration": 0.6,
+    "loop": false,
+    "events": [],
+    "timeline_start": 1123,
+    "module": "MaxicoCrouchOut",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "FirstDraw",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 39,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.2667
+      },
+      {
+        "frame": 39,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.2667
+      },
+      {
+        "frame": 54,
+        "event": "deploy_start",
+        "strength": 1
+      },
+      {
+        "frame": 62,
+        "event": "transform_lock",
+        "strength": 1
+      }
+    ],
+    "timeline_start": null,
+    "module": "MaxicoIntro",
+    "role": "v11: 120-frame showcase, right-hand draw then left-hand join, reach-corrected"
+  },
+  {
+    "name": "CrouchAttack",
+    "frames": 67,
+    "duration": 2.2,
+    "loop": false,
+    "events": [
+      {
+        "frame": 23,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.7333
+      },
+      {
+        "frame": 26,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8333
+      }
+    ],
+    "timeline_start": 1438,
+    "module": "MaxicoCrouchAttack",
+    "hitAt": 0.8333,
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          29,
+          14.35
+        ],
+        [
+          66,
+          36
+        ]
+      ],
+      "v10_frames": 37,
+      "v10_duration": 1.2
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "JumpSlam",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 40,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.5666666666666667
+      },
+      {
+        "frame": 55,
+        "event": "impact",
+        "strength": 1.5,
+        "time": 0.9333333333333333
+      }
+    ],
+    "timeline_start": 1480,
+    "module": "MaxicoJumpSlam",
+    "wrist_limit_degrees": 35.00003057145013,
+    "hitAt": 1.7951,
+    "role": "v11: 120-frame showcase, two-hand (stance + left-arm IK)"
+  },
+  {
+    "name": "SprintTwirl",
+    "frames": 60,
+    "duration": 1.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 7,
+        "event": "left_grip_release",
+        "strength": 1,
+        "time": 0.2
+      },
+      {
+        "frame": 7,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open",
+        "time": 0.2
+      },
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 49,
+        "event": "catch",
+        "strength": 1,
+        "time": 1.6
+      },
+      {
+        "frame": 54,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.7667
+      },
+      {
+        "frame": 54,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.7667
+      }
+    ],
+    "timeline_start": 1540,
+    "module": "MaxicoSprintTwirl",
+    "role": "automatic in-place WEAPON spin during sustained movement; no damage, attack input or buff | v11: two-hand — v10 weapon path + stance + left-hand join/release, slowed x1.40",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          59,
+          42
+        ]
+      ],
+      "v10_frames": 43,
+      "v10_duration": 1.4
+    }
+  },
+  {
+    "name": "RareDraw",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 29,
+        "event": "heavy_windup",
+        "time": 0.9333,
+        "strength": 1
+      },
+      {
+        "frame": 41,
+        "event": "release",
+        "strength": 1
+      },
+      {
+        "frame": 41,
+        "event": "left_grip_release",
+        "time": 1.3333,
+        "strength": 1
+      },
+      {
+        "frame": 41,
+        "event": "hand_mesh",
+        "time": 1.3333,
+        "hand": "L",
+        "mesh": "Open"
+      },
+      {
+        "frame": 41,
+        "event": "hand_mesh",
+        "time": 1.3333,
+        "hand": "R",
+        "mesh": "Open"
+      },
+      {
+        "frame": 43,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "frame": 61,
+        "event": "turnaround",
+        "strength": 0
+      },
+      {
+        "frame": 79,
+        "event": "return_whoosh",
+        "strength": 1
+      },
+      {
+        "frame": 81,
+        "event": "pitch_up",
+        "strength": 0.5
+      },
+      {
+        "frame": 89,
+        "event": "catch",
+        "strength": 1
+      },
+      {
+        "frame": 89,
+        "event": "hand_mesh",
+        "time": 2.9333,
+        "hand": "R",
+        "mesh": "Grip"
+      },
+      {
+        "frame": 89,
+        "event": "hand_mesh",
+        "time": 2.9333,
+        "hand": "L",
+        "mesh": "Grip"
+      },
+      {
+        "frame": 89,
+        "event": "left_grip_join",
+        "time": 2.9333,
+        "strength": 1
+      }
+    ],
+    "timeline_start": null,
+    "role": "hold attack cosmetic v11.3: heavy two-hand wind-up over the right shoulder, two-hand boomerang throw (v10 flight path), right catch with weight absorb, left re-grip",
+    "module": "MaxicoRareDraw"
+  },
+  {
+    "name": "SprintDraw",
+    "frames": 51,
+    "duration": 1.6667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 33,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.0667
+      },
+      {
+        "frame": 33,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.0667
+      }
+    ],
+    "timeline_start": 1657,
+    "module": "MaxicoSprintDraw",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          50,
+          36
+        ]
+      ],
+      "v10_frames": 37,
+      "v10_duration": 1.2
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-hand join/release, slowed x1.40"
+  },
+  {
+    "name": "Holster",
+    "frames": 35,
+    "duration": 1.1333,
+    "loop": false,
+    "events": [
+      {
+        "frame": 9,
+        "event": "left_grip_release",
+        "strength": 1,
+        "time": 0.2667
+      },
+      {
+        "frame": 9,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open",
+        "time": 0.2667
+      }
+    ],
+    "timeline_start": 1699,
+    "module": "MaxicoHolster",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          34,
+          24
+        ]
+      ],
+      "v10_frames": 25,
+      "v10_duration": 0.8
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-hand join/release, slowed x1.40"
+  },
+  {
+    "name": "Transform",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 1,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.0
+      },
+      {
+        "frame": 3,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.0667
+      },
+      {
+        "frame": 5,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.1333
+      },
+      {
+        "frame": 7,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.2
+      },
+      {
+        "frame": 9,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.2667
+      },
+      {
+        "frame": 11,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.3333
+      },
+      {
+        "frame": 13,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.4
+      },
+      {
+        "frame": 15,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.4667
+      },
+      {
+        "frame": 17,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.5333
+      },
+      {
+        "frame": 19,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.6
+      },
+      {
+        "frame": 21,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.6667
+      },
+      {
+        "frame": 23,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.7333
+      },
+      {
+        "frame": 25,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.8
+      },
+      {
+        "frame": 27,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.8667
+      },
+      {
+        "frame": 29,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 0.9333
+      },
+      {
+        "frame": 31,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 1.0
+      },
+      {
+        "frame": 33,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 1.0667
+      },
+      {
+        "frame": 35,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 1.1333
+      },
+      {
+        "frame": 37,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 1.2
+      },
+      {
+        "frame": 39,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0,
+        "time": 1.2667
+      },
+      {
+        "frame": 41,
+        "event": "glow_key",
+        "intensity": 0.235,
+        "fill": 0.0,
+        "time": 1.3333
+      },
+      {
+        "frame": 43,
+        "event": "glow_key",
+        "intensity": 0.24,
+        "fill": 0.06,
+        "time": 1.4
+      },
+      {
+        "frame": 45,
+        "event": "glow_key",
+        "intensity": 0.337,
+        "fill": 0.12,
+        "time": 1.4667
+      },
+      {
+        "frame": 46,
+        "event": "deploy_start",
+        "strength": 1
+      },
+      {
+        "frame": 47,
+        "event": "glow_key",
+        "intensity": 0.47,
+        "fill": 0.12,
+        "time": 1.5333
+      },
+      {
+        "frame": 49,
+        "event": "glow_key",
+        "intensity": 0.78,
+        "fill": 0.24,
+        "time": 1.6
+      },
+      {
+        "frame": 51,
+        "event": "glow_key",
+        "intensity": 0.889,
+        "fill": 0.694,
+        "time": 1.6667
+      },
+      {
+        "frame": 53,
+        "event": "glow_key",
+        "intensity": 1.0,
+        "fill": 1.116,
+        "time": 1.7333
+      },
+      {
+        "frame": 54,
+        "event": "transform_lock",
+        "strength": 1
+      },
+      {
+        "frame": 54,
+        "event": "glow_key",
+        "intensity": 1.9,
+        "fill": 1.008,
+        "time": 1.7667
+      },
+      {
+        "frame": 55,
+        "event": "glow_key",
+        "intensity": 1.731,
+        "fill": 1.0,
+        "time": 1.8
+      },
+      {
+        "frame": 57,
+        "event": "glow_key",
+        "intensity": 1.25,
+        "fill": 1.0,
+        "time": 1.8667
+      },
+      {
+        "frame": 59,
+        "event": "glow_key",
+        "intensity": 1.191,
+        "fill": 1.0,
+        "time": 1.9333
+      },
+      {
+        "frame": 61,
+        "event": "glow_key",
+        "intensity": 1.068,
+        "fill": 1.0,
+        "time": 2.0
+      },
+      {
+        "frame": 63,
+        "event": "glow_key",
+        "intensity": 0.967,
+        "fill": 1.0,
+        "time": 2.0667
+      },
+      {
+        "frame": 65,
+        "event": "glow_key",
+        "intensity": 0.947,
+        "fill": 1.0,
+        "time": 2.1333
+      },
+      {
+        "frame": 67,
+        "event": "glow_key",
+        "intensity": 0.924,
+        "fill": 1.0,
+        "time": 2.2
+      },
+      {
+        "frame": 69,
+        "event": "glow_key",
+        "intensity": 0.892,
+        "fill": 1.0,
+        "time": 2.2667
+      },
+      {
+        "frame": 71,
+        "event": "glow_key",
+        "intensity": 0.863,
+        "fill": 1.0,
+        "time": 2.3333
+      },
+      {
+        "frame": 73,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0,
+        "time": 2.4
+      },
+      {
+        "frame": 75,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 2.4667
+      },
+      {
+        "frame": 77,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0,
+        "time": 2.5333
+      },
+      {
+        "frame": 79,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0,
+        "time": 2.6
+      },
+      {
+        "frame": 81,
+        "event": "glow_key",
+        "intensity": 0.945,
+        "fill": 1.0,
+        "time": 2.6667
+      },
+      {
+        "frame": 83,
+        "event": "glow_key",
+        "intensity": 0.95,
+        "fill": 1.0,
+        "time": 2.7333
+      },
+      {
+        "frame": 85,
+        "event": "glow_key",
+        "intensity": 0.945,
+        "fill": 1.0,
+        "time": 2.8
+      },
+      {
+        "frame": 87,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0,
+        "time": 2.8667
+      },
+      {
+        "frame": 89,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0,
+        "time": 2.9333
+      },
+      {
+        "frame": 91,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 3.0
+      },
+      {
+        "frame": 93,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0,
+        "time": 3.0667
+      },
+      {
+        "frame": 95,
+        "event": "glow_key",
+        "intensity": 0.819,
+        "fill": 1.0,
+        "time": 3.1333
+      },
+      {
+        "frame": 97,
+        "event": "glow_key",
+        "intensity": 0.791,
+        "fill": 1.0,
+        "time": 3.2
+      },
+      {
+        "frame": 99,
+        "event": "glow_key",
+        "intensity": 0.769,
+        "fill": 1.0,
+        "time": 3.2667
+      },
+      {
+        "frame": 101,
+        "event": "glow_key",
+        "intensity": 0.755,
+        "fill": 1.0,
+        "time": 3.3333
+      },
+      {
+        "frame": 103,
+        "event": "glow_key",
+        "intensity": 0.75,
+        "fill": 1.0,
+        "time": 3.4
+      },
+      {
+        "frame": 105,
+        "event": "glow_key",
+        "intensity": 0.755,
+        "fill": 1.0,
+        "time": 3.4667
+      },
+      {
+        "frame": 107,
+        "event": "glow_key",
+        "intensity": 0.769,
+        "fill": 1.0,
+        "time": 3.5333
+      },
+      {
+        "frame": 109,
+        "event": "glow_key",
+        "intensity": 0.791,
+        "fill": 1.0,
+        "time": 3.6
+      },
+      {
+        "frame": 111,
+        "event": "glow_key",
+        "intensity": 0.819,
+        "fill": 1.0,
+        "time": 3.6667
+      },
+      {
+        "frame": 113,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0,
+        "time": 3.7333
+      },
+      {
+        "frame": 115,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 3.8
+      },
+      {
+        "frame": 117,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0,
+        "time": 3.8667
+      },
+      {
+        "frame": 119,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0,
+        "time": 3.9333
+      },
+      {
+        "frame": 120,
+        "event": "glow_key",
+        "intensity": 0.939,
+        "fill": 1.0,
+        "time": 3.9667
+      },
+      {
+        "frame": 120,
+        "event": "glow_hold",
+        "base": 0.85,
+        "amplitude": 0.1,
+        "period_seconds": 1.3333,
+        "fill": 1.0,
+        "time": 3.9667,
+        "until": "UltAttack start"
+      }
+    ],
+    "timeline_start": null,
+    "module": "MaxicoTransform",
+    "role": "v11: 120-frame showcase, two-hand, reach-corrected weapon + both arms IK; body glyph glow ignites (see effect_events glow)"
+  },
+  {
+    "name": "TransitionIdleToRun",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Idle",
+    "to": "Run",
+    "module": "MaxicoTransitionIdleToRun",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionIdleToCrouch",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Idle",
+    "to": "Crouch",
+    "module": "MaxicoTransitionIdleToCrouch",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionIdleToBlock",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Idle",
+    "to": "Block",
+    "module": "MaxicoTransitionIdleToBlock",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionIdleToHolster",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Idle",
+    "to": "Holster",
+    "module": "MaxicoTransitionIdleToHolster",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionRunToIdle",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Run",
+    "to": "Idle",
+    "module": "MaxicoTransitionRunToIdle",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionRunToCrouch",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Run",
+    "to": "Crouch",
+    "module": "MaxicoTransitionRunToCrouch",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionRunToBlock",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Run",
+    "to": "Block",
+    "module": "MaxicoTransitionRunToBlock",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionRunToHolster",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Run",
+    "to": "Holster",
+    "module": "MaxicoTransitionRunToHolster",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionCrouchToIdle",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Crouch",
+    "to": "Idle",
+    "module": "MaxicoTransitionCrouchToIdle",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionCrouchToRun",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Crouch",
+    "to": "Run",
+    "module": "MaxicoTransitionCrouchToRun",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionCrouchToBlock",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Crouch",
+    "to": "Block",
+    "module": "MaxicoTransitionCrouchToBlock",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionCrouchToHolster",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Crouch",
+    "to": "Holster",
+    "module": "MaxicoTransitionCrouchToHolster",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionBlockToIdle",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Block",
+    "to": "Idle",
+    "module": "MaxicoTransitionBlockToIdle",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionBlockToRun",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Block",
+    "to": "Run",
+    "module": "MaxicoTransitionBlockToRun",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionBlockToCrouch",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Block",
+    "to": "Crouch",
+    "module": "MaxicoTransitionBlockToCrouch",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionBlockToHolster",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Block",
+    "to": "Holster",
+    "module": "MaxicoTransitionBlockToHolster",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionHolsterToIdle",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Holster",
+    "to": "Idle",
+    "module": "MaxicoTransitionHolsterToIdle",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionHolsterToRun",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Holster",
+    "to": "Run",
+    "module": "MaxicoTransitionHolsterToRun",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionHolsterToCrouch",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Holster",
+    "to": "Crouch",
+    "module": "MaxicoTransitionHolsterToCrouch",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "TransitionHolsterToBlock",
+    "frames": 5,
+    "duration": 0.13333333333333333,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "from": "Holster",
+    "to": "Block",
+    "module": "MaxicoTransitionHolsterToBlock",
+    "role": "v11: v10 transition path retargeted, endpoints pinned to v11 clip poses"
+  },
+  {
+    "name": "UltAttack",
+    "frames": 120,
+    "duration": 3.9667,
+    "loop": false,
+    "events": [
+      {
+        "frame": 1,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0,
+        "time": 0.0
+      },
+      {
+        "frame": 3,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 0.0667
+      },
+      {
+        "frame": 5,
+        "event": "glow_key",
+        "intensity": 0.905,
+        "fill": 1.0,
+        "time": 0.1333
+      },
+      {
+        "frame": 7,
+        "event": "glow_key",
+        "intensity": 0.915,
+        "fill": 1.0,
+        "time": 0.2
+      },
+      {
+        "frame": 9,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0,
+        "time": 0.2667
+      },
+      {
+        "frame": 11,
+        "event": "glow_key",
+        "intensity": 0.894,
+        "fill": 1.0,
+        "time": 0.3333
+      },
+      {
+        "frame": 13,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 0.4
+      },
+      {
+        "frame": 15,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0,
+        "time": 0.4667
+      },
+      {
+        "frame": 17,
+        "event": "glow_key",
+        "intensity": 0.9,
+        "fill": 1.0,
+        "time": 0.5333
+      },
+      {
+        "frame": 19,
+        "event": "glow_key",
+        "intensity": 0.938,
+        "fill": 1.0,
+        "time": 0.6
+      },
+      {
+        "frame": 21,
+        "event": "glow_key",
+        "intensity": 0.988,
+        "fill": 1.0,
+        "time": 0.6667
+      },
+      {
+        "frame": 23,
+        "event": "glow_key",
+        "intensity": 1.037,
+        "fill": 1.0,
+        "time": 0.7333
+      },
+      {
+        "frame": 25,
+        "event": "glow_key",
+        "intensity": 1.074,
+        "fill": 1.0,
+        "time": 0.8
+      },
+      {
+        "frame": 27,
+        "event": "glow_key",
+        "intensity": 1.092,
+        "fill": 1.0,
+        "time": 0.8667
+      },
+      {
+        "frame": 29,
+        "event": "glow_key",
+        "intensity": 1.09,
+        "fill": 1.0,
+        "time": 0.9333
+      },
+      {
+        "frame": 31,
+        "event": "glow_key",
+        "intensity": 1.074,
+        "fill": 1.0,
+        "time": 1.0
+      },
+      {
+        "frame": 33,
+        "event": "glow_key",
+        "intensity": 1.056,
+        "fill": 1.0,
+        "time": 1.0667
+      },
+      {
+        "frame": 35,
+        "event": "glow_key",
+        "intensity": 1.046,
+        "fill": 1.0,
+        "time": 1.1333
+      },
+      {
+        "frame": 37,
+        "event": "glow_key",
+        "intensity": 1.051,
+        "fill": 1.0,
+        "time": 1.2
+      },
+      {
+        "frame": 39,
+        "event": "glow_key",
+        "intensity": 1.106,
+        "fill": 1.0,
+        "time": 1.2667
+      },
+      {
+        "frame": 40,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.4
+      },
+      {
+        "frame": 41,
+        "event": "glow_key",
+        "intensity": 1.219,
+        "fill": 1.0,
+        "time": 1.3333
+      },
+      {
+        "frame": 43,
+        "event": "glow_key",
+        "intensity": 1.4,
+        "fill": 1.0,
+        "time": 1.4
+      },
+      {
+        "frame": 45,
+        "event": "glow_key",
+        "intensity": 1.556,
+        "fill": 1.0,
+        "time": 1.4667
+      },
+      {
+        "frame": 47,
+        "event": "glow_key",
+        "intensity": 1.813,
+        "fill": 1.0,
+        "time": 1.5333
+      },
+      {
+        "frame": 48,
+        "event": "impact",
+        "strength": 1.5,
+        "time": 0.6
+      },
+      {
+        "frame": 48,
+        "event": "glow_key",
+        "intensity": 2.637,
+        "fill": 1.0,
+        "time": 1.5667
+      },
+      {
+        "frame": 49,
+        "event": "glow_key",
+        "intensity": 2.741,
+        "fill": 1.0,
+        "time": 1.6
+      },
+      {
+        "frame": 51,
+        "event": "glow_key",
+        "intensity": 1.964,
+        "fill": 1.0,
+        "time": 1.6667
+      },
+      {
+        "frame": 53,
+        "event": "glow_key",
+        "intensity": 1.597,
+        "fill": 1.0,
+        "time": 1.7333
+      },
+      {
+        "frame": 55,
+        "event": "glow_key",
+        "intensity": 1.539,
+        "fill": 1.0,
+        "time": 1.8
+      },
+      {
+        "frame": 57,
+        "event": "glow_key",
+        "intensity": 1.427,
+        "fill": 1.0,
+        "time": 1.8667
+      },
+      {
+        "frame": 59,
+        "event": "glow_key",
+        "intensity": 1.285,
+        "fill": 1.0,
+        "time": 1.9333
+      },
+      {
+        "frame": 61,
+        "event": "glow_key",
+        "intensity": 1.137,
+        "fill": 0.999,
+        "time": 2.0
+      },
+      {
+        "frame": 63,
+        "event": "glow_key",
+        "intensity": 1.007,
+        "fill": 0.981,
+        "time": 2.0667
+      },
+      {
+        "frame": 65,
+        "event": "glow_key",
+        "intensity": 0.921,
+        "fill": 0.941,
+        "time": 2.1333
+      },
+      {
+        "frame": 67,
+        "event": "glow_key",
+        "intensity": 0.899,
+        "fill": 0.883,
+        "time": 2.2
+      },
+      {
+        "frame": 69,
+        "event": "glow_key",
+        "intensity": 0.878,
+        "fill": 0.809,
+        "time": 2.2667
+      },
+      {
+        "frame": 71,
+        "event": "glow_key",
+        "intensity": 0.832,
+        "fill": 0.723,
+        "time": 2.3333
+      },
+      {
+        "frame": 73,
+        "event": "glow_key",
+        "intensity": 0.767,
+        "fill": 0.628,
+        "time": 2.4
+      },
+      {
+        "frame": 75,
+        "event": "glow_key",
+        "intensity": 0.687,
+        "fill": 0.527,
+        "time": 2.4667
+      },
+      {
+        "frame": 77,
+        "event": "glow_key",
+        "intensity": 0.596,
+        "fill": 0.423,
+        "time": 2.5333
+      },
+      {
+        "frame": 79,
+        "event": "glow_key",
+        "intensity": 0.498,
+        "fill": 0.319,
+        "time": 2.6
+      },
+      {
+        "frame": 81,
+        "event": "glow_key",
+        "intensity": 0.398,
+        "fill": 0.218,
+        "time": 2.6667
+      },
+      {
+        "frame": 83,
+        "event": "glow_key",
+        "intensity": 0.301,
+        "fill": 0.124,
+        "time": 2.7333
+      },
+      {
+        "frame": 85,
+        "event": "glow_key",
+        "intensity": 0.21,
+        "fill": 0.038,
+        "time": 2.8
+      },
+      {
+        "frame": 87,
+        "event": "glow_key",
+        "intensity": 0.13,
+        "fill": -0.035,
+        "time": 2.8667
+      },
+      {
+        "frame": 89,
+        "event": "glow_key",
+        "intensity": 0.066,
+        "fill": -0.093,
+        "time": 2.9333
+      },
+      {
+        "frame": 91,
+        "event": "glow_key",
+        "intensity": 0.021,
+        "fill": -0.132,
+        "time": 3.0
+      },
+      {
+        "frame": 93,
+        "event": "glow_key",
+        "intensity": 0.001,
+        "fill": -0.149,
+        "time": 3.0667
+      },
+      {
+        "frame": 95,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.1333
+      },
+      {
+        "frame": 97,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.2
+      },
+      {
+        "frame": 99,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.2667
+      },
+      {
+        "frame": 101,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.3333
+      },
+      {
+        "frame": 103,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.4
+      },
+      {
+        "frame": 105,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.4667
+      },
+      {
+        "frame": 107,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.5333
+      },
+      {
+        "frame": 109,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.6
+      },
+      {
+        "frame": 111,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.6667
+      },
+      {
+        "frame": 113,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.7333
+      },
+      {
+        "frame": 115,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.8
+      },
+      {
+        "frame": 117,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.8667
+      },
+      {
+        "frame": 119,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.9333
+      },
+      {
+        "frame": 120,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15,
+        "time": 3.9667
+      }
+    ],
+    "timeline_start": null,
+    "requires": "Transform finished AND empowered ready",
+    "wrist_limit_degrees": 35.00000666578804,
+    "hitAt": 1.5821,
+    "module": "MaxicoUltAttack",
+    "role": "v11: 120-frame showcase, two-hand; empowered glyph glow flashes at hit then drains"
+  },
+  {
+    "name": "WalkStart",
+    "frames": 7,
+    "duration": 0.2,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "module": "MaxicoWalkStart",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "WalkStop",
+    "frames": 7,
+    "duration": 0.2,
+    "loop": false,
+    "events": [],
+    "timeline_start": null,
+    "module": "MaxicoWalkStop",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "WalkLoop",
+    "frames": 25,
+    "duration": 0.8,
+    "loop": true,
+    "events": [],
+    "timeline_start": null,
+    "module": "MaxicoWalkLoop",
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK"
+  },
+  {
+    "name": "WalkAttack1",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": null,
+    "movement": "walk",
+    "source_attack": "Attack1",
+    "hitAt": 0.8,
+    "module": "MaxicoWalkAttack1",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "WalkAttack2",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": null,
+    "movement": "walk",
+    "source_attack": "Attack2",
+    "hitAt": 0.8,
+    "module": "MaxicoWalkAttack2",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "WalkAttack3",
+    "frames": 71,
+    "duration": 2.3333,
+    "loop": false,
+    "events": [
+      {
+        "frame": 23,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.7333
+      },
+      {
+        "frame": 31,
+        "event": "impact",
+        "strength": 1.5,
+        "time": 1.0
+      }
+    ],
+    "timeline_start": null,
+    "movement": "walk",
+    "source_attack": "Attack3",
+    "hitAt": 1.0,
+    "module": "MaxicoWalkAttack3",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          34,
+          18.35
+        ],
+        [
+          70,
+          39
+        ]
+      ],
+      "v10_frames": 40,
+      "v10_duration": 1.3
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "SprintAttack1",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": null,
+    "movement": "sprint",
+    "source_attack": "Attack1",
+    "hitAt": 0.8,
+    "module": "MaxicoSprintAttack1",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "SprintAttack2",
+    "frames": 55,
+    "duration": 1.8,
+    "loop": false,
+    "events": [
+      {
+        "frame": 19,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.6
+      },
+      {
+        "frame": 25,
+        "event": "impact",
+        "strength": 1,
+        "time": 0.8
+      }
+    ],
+    "timeline_start": null,
+    "movement": "sprint",
+    "source_attack": "Attack2",
+    "hitAt": 0.8,
+    "module": "MaxicoSprintAttack2",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          18,
+          10
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          28,
+          15.35
+        ],
+        [
+          54,
+          30
+        ]
+      ],
+      "v10_frames": 31,
+      "v10_duration": 1.0
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  },
+  {
+    "name": "SprintAttack3",
+    "frames": 71,
+    "duration": 2.3333,
+    "loop": false,
+    "events": [
+      {
+        "frame": 23,
+        "event": "whoosh",
+        "strength": 1,
+        "time": 0.7333
+      },
+      {
+        "frame": 31,
+        "event": "impact",
+        "strength": 1.5,
+        "time": 1.0
+      }
+    ],
+    "timeline_start": null,
+    "movement": "sprint",
+    "source_attack": "Attack3",
+    "hitAt": 1.0,
+    "module": "MaxicoSprintAttack3",
+    "v11_retime": {
+      "knots_out_src": [
+        [
+          0,
+          0
+        ],
+        [
+          22,
+          12
+        ],
+        [
+          30,
+          18
+        ],
+        [
+          34,
+          18.35
+        ],
+        [
+          70,
+          39
+        ]
+      ],
+      "v10_frames": 40,
+      "v10_duration": 1.3
+    },
+    "role": "v11: two-hand — v10 weapon path + stance + left-arm IK + heavy retime (wind-up x1.5, swing x1.2, 2f hit-stop, recovery x1.4)"
+  }
+]

@@ -1,0 +1,1333 @@
+{
+  "summary": {
+    "files": 52,
+    "all_lua_checks_pass": true,
+    "loop_clips_seam": {
+      "BlockHold": 0.0,
+      "CrouchIdle": 0.0,
+      "Idle": 0.0,
+      "RunLoop": 0.0,
+      "WalkLoop": 0.0
+    },
+    "retarget_worst_shoulder_cm": [
+      15.0,
+      "CrouchAttack"
+    ],
+    "retarget_worst_wrist_gap_cm": [
+      5.69,
+      "SprintTwirl"
+    ],
+    "retarget_over_frames_total": 5,
+    "transition_endpoint_err_cm_max": 0.0,
+    "transition_weapon_path_dev_cm_max": 20.6,
+    "showcase_first_last_weapon_err_cm_max": 0.0,
+    "not_measured": [
+      "blade/obsidian vs arm mesh clearance",
+      "hitAt Tip position deviation vs v10 (retarget clips differ from v10 only by the constant stance offset 6/2/3 cm)"
+    ]
+  },
+  "clips": {
+    "Attack1": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoAttack1.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9939,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 9.6,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "Attack2": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoAttack2.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9927,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 8.1,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "Attack3": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoAttack3.lua",
+        "rows": 40,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0727,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 11.4,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "BlockHold": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoBlockHold.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": 0.0,
+        "max_value_change_vs_v10": 1.0255,
+        "v11_header": true
+      },
+      "method": "authored_block",
+      "solve": {
+        "frames": 31,
+        "loop_seam": 0.0,
+        "R_over_frames": 0,
+        "R_shoulder_shift_max_cm": 4.41,
+        "R_wrist_gap_max_cm": 1.58,
+        "R_elbow_gap_max_cm": 0.94,
+        "L_over_frames": 0,
+        "L_shoulder_shift_max_cm": 0.0,
+        "L_wrist_gap_max_cm": 0.62,
+        "L_elbow_gap_max_cm": 1.66
+      }
+    },
+    "BlockIn": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoBlockIn.lua",
+        "rows": 10,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "authored_block",
+      "solve": {
+        "frames": 10,
+        "loop_seam": null,
+        "R_over_frames": 0,
+        "R_shoulder_shift_max_cm": 5.7,
+        "R_wrist_gap_max_cm": 1.58,
+        "R_elbow_gap_max_cm": 0.94,
+        "L_over_frames": 0,
+        "L_shoulder_shift_max_cm": 7.56,
+        "L_wrist_gap_max_cm": 0.61,
+        "L_elbow_gap_max_cm": 1.66
+      }
+    },
+    "BlockOut": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoBlockOut.lua",
+        "rows": 13,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "authored_block",
+      "solve": {
+        "frames": 13,
+        "loop_seam": null,
+        "R_over_frames": 0,
+        "R_shoulder_shift_max_cm": 4.22,
+        "R_wrist_gap_max_cm": 1.58,
+        "R_elbow_gap_max_cm": 0.94,
+        "L_over_frames": 0,
+        "L_shoulder_shift_max_cm": 7.56,
+        "L_wrist_gap_max_cm": 0.62,
+        "L_elbow_gap_max_cm": 1.66
+      }
+    },
+    "CrouchAttack": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoCrouchAttack.lua",
+        "rows": 37,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9898,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 1,
+        "shoulder_max_cm": 15.0,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "CrouchIdle": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoCrouchIdle.lua",
+        "rows": 61,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": 0.0,
+        "max_value_change_vs_v10": 0.8971,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 10.4,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": 0.0,
+        "grip_keys": null
+      }
+    },
+    "CrouchIn": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoCrouchIn.lua",
+        "rows": 19,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9962,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 10.1,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "CrouchOut": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoCrouchOut.lua",
+        "rows": 19,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9924,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 10.1,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "Draw": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoDraw.lua",
+        "rows": 40,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9969,
+        "v11_header": true
+      },
+      "method": "retarget+grip_weights",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 14.9,
+        "elbow_gap_cm": 6.29,
+        "wrist_gap_cm": 5.68,
+        "loop_seam": null,
+        "grip_keys": [
+          [
+            0,
+            0.0
+          ],
+          [
+            8,
+            0.0
+          ],
+          [
+            14,
+            1.0
+          ]
+        ]
+      }
+    },
+    "Holster": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoHolster.lua",
+        "rows": 25,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9601,
+        "v11_header": true
+      },
+      "method": "retarget+grip_weights",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 7.7,
+        "elbow_gap_cm": 6.64,
+        "wrist_gap_cm": 5.69,
+        "loop_seam": null,
+        "grip_keys": [
+          [
+            0,
+            1.0
+          ],
+          [
+            6,
+            1.0
+          ],
+          [
+            12,
+            0.0
+          ]
+        ]
+      }
+    },
+    "Idle": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoIdle.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": 0.0,
+        "max_value_change_vs_v10": 0.9629,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": true,
+        "L": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 8.09,
+          "wrist_gap_max_cm": 0.61,
+          "elbow_gap_max_cm": 1.65
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ],
+        "loop_seam": 0.0
+      }
+    },
+    "FirstDraw": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoIntro.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9978,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": false,
+        "weapon_pull_max_cm": 12.4,
+        "R": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 0.43,
+          "wrist_gap_max_cm": 9.71,
+          "elbow_gap_max_cm": 4.22
+        },
+        "L": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 14.61,
+          "wrist_gap_max_cm": 5.69,
+          "elbow_gap_max_cm": 6.28
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "JumpSlam": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoJumpSlam.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0833,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": false,
+        "L": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 10.64,
+          "wrist_gap_max_cm": 0.61,
+          "elbow_gap_max_cm": 1.66
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "RareDraw": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoRareDraw.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.9724,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": false,
+        "weapon_pull_max_cm": 11.3,
+        "R": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 4.17,
+          "wrist_gap_max_cm": 7.57,
+          "elbow_gap_max_cm": 5.25
+        },
+        "L": {
+          "over_frames": 3,
+          "shoulder_shift_max_cm": 15.0,
+          "wrist_gap_max_cm": 5.69,
+          "elbow_gap_max_cm": 6.83
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "RunLoop": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoRunLoop.lua",
+        "rows": 25,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": 0.0,
+        "max_value_change_vs_v10": 1.1547,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 14.3,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": 0.0,
+        "grip_keys": null
+      }
+    },
+    "RunStart": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoRunStart.lua",
+        "rows": 13,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0926,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 12.2,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "RunStop": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoRunStop.lua",
+        "rows": 13,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.1111,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 12.2,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.61,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "SprintAttack1": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoSprintAttack1.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.1173,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 13.5,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "SprintAttack2": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoSprintAttack2.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.1012,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 13.0,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "SprintAttack3": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoSprintAttack3.lua",
+        "rows": 40,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.1959,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 13.8,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "SprintDraw": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoSprintDraw.lua",
+        "rows": 37,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.1241,
+        "v11_header": true
+      },
+      "method": "retarget+grip_weights",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 14.7,
+        "elbow_gap_cm": 6.36,
+        "wrist_gap_cm": 5.68,
+        "loop_seam": null,
+        "grip_keys": [
+          [
+            0,
+            0.0
+          ],
+          [
+            17,
+            0.0
+          ],
+          [
+            23,
+            1.0
+          ]
+        ]
+      }
+    },
+    "SprintTwirl": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoSprintTwirl.lua",
+        "rows": 43,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.9484,
+        "v11_header": true
+      },
+      "method": "retarget+grip_weights",
+      "solve": {
+        "over_frames": 4,
+        "shoulder_max_cm": 14.7,
+        "elbow_gap_cm": 6.72,
+        "wrist_gap_cm": 5.69,
+        "loop_seam": null,
+        "grip_keys": [
+          [
+            0,
+            1.0
+          ],
+          [
+            4,
+            1.0
+          ],
+          [
+            9,
+            0.0
+          ],
+          [
+            33,
+            0.0
+          ],
+          [
+            38,
+            1.0
+          ]
+        ]
+      }
+    },
+    "Transform": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoTransform.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0003,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": false,
+        "weapon_pull_max_cm": 12.5,
+        "R": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 0.0,
+          "wrist_gap_max_cm": 1.58,
+          "elbow_gap_max_cm": 0.94
+        },
+        "L": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 14.6,
+          "wrist_gap_max_cm": 0.61,
+          "elbow_gap_max_cm": 1.65
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "UltAttack": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoUltAttack.lua",
+        "rows": 120,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0256,
+        "v11_header": true
+      },
+      "method": "showcase",
+      "solve": {
+        "frames": 120,
+        "loop": false,
+        "L": {
+          "over_frames": 0,
+          "shoulder_shift_max_cm": 11.05,
+          "wrist_gap_max_cm": 0.61,
+          "elbow_gap_max_cm": 1.65
+        },
+        "weapon_first_last_err_cm": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "WalkAttack1": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkAttack1.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9917,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 9.8,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "WalkAttack2": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkAttack2.lua",
+        "rows": 31,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.995,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 8.2,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "WalkAttack3": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkAttack3.lua",
+        "rows": 40,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0709,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 11.8,
+        "elbow_gap_cm": 1.66,
+        "wrist_gap_cm": 0.62,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "WalkLoop": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkLoop.lua",
+        "rows": 25,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": 0.0,
+        "max_value_change_vs_v10": 0.9841,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 9.0,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.61,
+        "loop_seam": 0.0,
+        "grip_keys": null
+      }
+    },
+    "WalkStart": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkStart.lua",
+        "rows": 7,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9624,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 7.8,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.61,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "WalkStop": {
+      "lua": {
+        "file": "Clips/ViewmodelAnimMaxicoWalkStop.lua",
+        "rows": 7,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.995,
+        "v11_header": true
+      },
+      "method": "retarget",
+      "solve": {
+        "over_frames": 0,
+        "shoulder_max_cm": 9.0,
+        "elbow_gap_cm": 1.65,
+        "wrist_gap_cm": 0.61,
+        "loop_seam": null,
+        "grip_keys": null
+      }
+    },
+    "TransitionBlockToCrouch": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionBlockToCrouch.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 17.1
+      }
+    },
+    "TransitionBlockToHolster": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionBlockToHolster.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 20.6
+      }
+    },
+    "TransitionBlockToIdle": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionBlockToIdle.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 10.7
+      }
+    },
+    "TransitionBlockToRun": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionBlockToRun.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 11.6
+      }
+    },
+    "TransitionCrouchToBlock": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionCrouchToBlock.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 17.1
+      }
+    },
+    "TransitionCrouchToHolster": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionCrouchToHolster.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.8843,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.3
+      }
+    },
+    "TransitionCrouchToIdle": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionCrouchToIdle.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.984,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.6
+      }
+    },
+    "TransitionCrouchToRun": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionCrouchToRun.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.3
+      }
+    },
+    "TransitionHolsterToBlock": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionHolsterToBlock.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 20.6
+      }
+    },
+    "TransitionHolsterToCrouch": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionHolsterToCrouch.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.8843,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.3
+      }
+    },
+    "TransitionHolsterToIdle": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionHolsterToIdle.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9557,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 6.7
+      }
+    },
+    "TransitionHolsterToRun": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionHolsterToRun.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.007,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 6.5
+      }
+    },
+    "TransitionIdleToBlock": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionIdleToBlock.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0112,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 10.7
+      }
+    },
+    "TransitionIdleToCrouch": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionIdleToCrouch.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.984,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.6
+      }
+    },
+    "TransitionIdleToHolster": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionIdleToHolster.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 0.9557,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 6.7
+      }
+    },
+    "TransitionIdleToRun": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionIdleToRun.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 1.5
+      }
+    },
+    "TransitionRunToBlock": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionRunToBlock.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 11.6
+      }
+    },
+    "TransitionRunToCrouch": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionRunToCrouch.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 3.3
+      }
+    },
+    "TransitionRunToHolster": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionRunToHolster.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.007
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 6.5
+      }
+    },
+    "TransitionRunToIdle": {
+      "lua": {
+        "file": "Transitions/ViewmodelAnimMaxicoTransitionRunToIdle.lua",
+        "rows": 5,
+        "rows_match_manifest": true,
+        "text_roundtrip": true,
+        "timing_fields_same_as_v10": true,
+        "loop_seam": null,
+        "max_value_change_vs_v10": 1.0698,
+        "v11_header": true
+      },
+      "method": "transition_retarget_pinned",
+      "solve": {
+        "frames": 5,
+        "v10_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "v11_endpoint_err_cm": [
+          0.0,
+          0.0
+        ],
+        "weapon_path_dev_cm": 1.5
+      }
+    }
+  }
+}

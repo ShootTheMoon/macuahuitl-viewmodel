@@ -1,0 +1,125 @@
+{
+  "Idle": {
+    "frames": 120,
+    "loop": true,
+    "L": {
+      "over_frames": 0,
+      "shoulder_shift_max_cm": 8.09,
+      "wrist_gap_max_cm": 0.61,
+      "elbow_gap_max_cm": 1.65,
+      "cut_end_visible_frames": 0,
+      "R_over_frames": 0,
+      "R_shoulder_shift_max_cm": 3.0,
+      "R_wrist_gap_max_cm": 1.58,
+      "R_elbow_gap_max_cm": 0.94,
+      "R_cut_end_visible_frames": 0
+    },
+    "weapon_first_last_err_cm": [
+      0.0,
+      0.0
+    ],
+    "loop_seam": 0.0
+  },
+  "FirstDraw": {
+    "frames": 120,
+    "loop": false,
+    "weapon_pull_max_cm": 12.4,
+    "R": {
+      "over_frames": 0,
+      "shoulder_shift_max_cm": 6.0,
+      "wrist_gap_max_cm": 9.71,
+      "elbow_gap_max_cm": 4.21,
+      "cut_end_visible_frames": 40
+    },
+    "L": {
+      "over_frames": 0,
+      "shoulder_shift_max_cm": 14.62,
+      "wrist_gap_max_cm": 5.69,
+      "elbow_gap_max_cm": 6.28,
+      "cut_end_visible_frames": 0
+    },
+    "grip_events_L": [
+      {
+        "frame": 39,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.2667
+      },
+      {
+        "frame": 39,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.2667
+      }
+    ],
+    "weapon_first_last_err_cm": [
+      0.0,
+      0.0
+    ]
+  },
+  "Transform": {
+    "frames": 120,
+    "loop": false,
+    "weapon_pull_max_cm": 12.5,
+    "R": {
+      "over_frames": 0,
+      "shoulder_shift_max_cm": 6.0,
+      "wrist_gap_max_cm": 1.58,
+      "elbow_gap_max_cm": 0.94,
+      "cut_end_visible_frames": 38
+    },
+    "L": {
+      "over_frames": 0,
+      "shoulder_shift_max_cm": 14.6,
+      "wrist_gap_max_cm": 0.61,
+      "elbow_gap_max_cm": 1.65,
+      "cut_end_visible_frames": 0
+    },
+    "grip_events_L": [],
+    "weapon_first_last_err_cm": [
+      0.0,
+      0.0
+    ]
+  },
+  "UltAttack": {
+    "frames": 120,
+    "loop": false,
+    "L": {
+      "over_frames": 2,
+      "shoulder_shift_max_cm": 15.0,
+      "wrist_gap_max_cm": 0.61,
+      "elbow_gap_max_cm": 1.65,
+      "cut_end_visible_frames": 9,
+      "R_over_frames": 0,
+      "R_shoulder_shift_max_cm": 4.83,
+      "R_wrist_gap_max_cm": 1.58,
+      "R_elbow_gap_max_cm": 0.94,
+      "R_cut_end_visible_frames": 2
+    },
+    "weapon_first_last_err_cm": [
+      0.0,
+      0.0
+    ]
+  },
+  "JumpSlam": {
+    "frames": 120,
+    "loop": false,
+    "L": {
+      "over_frames": 3,
+      "shoulder_shift_max_cm": 15.0,
+      "wrist_gap_max_cm": 1.75,
+      "elbow_gap_max_cm": 1.66,
+      "cut_end_visible_frames": 15,
+      "R_over_frames": 0,
+      "R_shoulder_shift_max_cm": 6.38,
+      "R_wrist_gap_max_cm": 1.58,
+      "R_elbow_gap_max_cm": 0.94,
+      "R_cut_end_visible_frames": 7
+    },
+    "weapon_first_last_err_cm": [
+      0.0,
+      0.0
+    ]
+  }
+}

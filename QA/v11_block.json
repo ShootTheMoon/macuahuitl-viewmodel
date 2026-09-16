@@ -1,0 +1,44 @@
+{
+  "BlockIn": {
+    "frames": 14,
+    "loop_seam": null,
+    "R_over_frames": 0,
+    "R_shoulder_shift_max_cm": 13.34,
+    "R_wrist_gap_max_cm": 1.58,
+    "R_elbow_gap_max_cm": 0.94,
+    "R_cut_end_visible_frames": 0,
+    "L_over_frames": 0,
+    "L_shoulder_shift_max_cm": 7.56,
+    "L_wrist_gap_max_cm": 0.62,
+    "L_elbow_gap_max_cm": 1.66,
+    "L_cut_end_visible_frames": 0
+  },
+  "BlockHold": {
+    "frames": 31,
+    "loop_seam": 0.0,
+    "R_over_frames": 0,
+    "R_shoulder_shift_max_cm": 11.72,
+    "R_wrist_gap_max_cm": 1.58,
+    "R_elbow_gap_max_cm": 0.94,
+    "R_cut_end_visible_frames": 0,
+    "L_over_frames": 0,
+    "L_shoulder_shift_max_cm": 3.0,
+    "L_wrist_gap_max_cm": 0.62,
+    "L_elbow_gap_max_cm": 1.66,
+    "L_cut_end_visible_frames": 0
+  },
+  "BlockOut": {
+    "frames": 18,
+    "loop_seam": null,
+    "R_over_frames": 0,
+    "R_shoulder_shift_max_cm": 11.02,
+    "R_wrist_gap_max_cm": 1.58,
+    "R_elbow_gap_max_cm": 0.94,
+    "R_cut_end_visible_frames": 0,
+    "L_over_frames": 0,
+    "L_shoulder_shift_max_cm": 7.56,
+    "L_wrist_gap_max_cm": 0.61,
+    "L_elbow_gap_max_cm": 1.66,
+    "L_cut_end_visible_frames": 0
+  }
+}

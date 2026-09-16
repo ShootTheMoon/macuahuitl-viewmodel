@@ -1,0 +1,25 @@
+{
+  "tris_before": 194120,
+  "tris_after": 28420,
+  "fbx_axis_perm": [
+    0,
+    1,
+    2
+  ],
+  "fbx_axis_signs": [
+    1,
+    1,
+    1
+  ],
+  "fbx_scale_to_blender": 0.99967,
+  "decimated_to_original_mm": {
+    "mean": 0.085,
+    "max": 0.628
+  },
+  "original_to_decimated_mm": {
+    "mean": 0.531,
+    "max": 2.037,
+    "p99": 1.642
+  },
+  "weapon_length_m": 0.69
+}

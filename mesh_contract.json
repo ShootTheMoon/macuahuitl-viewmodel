@@ -1,0 +1,373 @@
+{
+  "active_part_count": 9,
+  "deployment": "Swap matching mesh assets in-place; never add five full models to the active viewmodel",
+  "stages": [
+    {
+      "index": 0,
+      "fraction": 0,
+      "file": "Meshes/Deploy_0/Macuahuitl.fbx"
+    },
+    {
+      "index": 1,
+      "fraction": 0.08,
+      "file": "Meshes/Deploy_1/Macuahuitl.fbx"
+    },
+    {
+      "index": 2,
+      "fraction": 0.22,
+      "file": "Meshes/Deploy_2/Macuahuitl.fbx"
+    },
+    {
+      "index": 3,
+      "fraction": 0.5,
+      "file": "Meshes/Deploy_3/Macuahuitl.fbx"
+    },
+    {
+      "index": 4,
+      "fraction": 0.78,
+      "file": "Meshes/Deploy_4/Macuahuitl.fbx"
+    },
+    {
+      "index": 5,
+      "fraction": 1.12,
+      "file": "Meshes/Deploy_5/Macuahuitl.fbx"
+    },
+    {
+      "index": 6,
+      "fraction": 1,
+      "file": "Meshes/Deploy_6/Macuahuitl.fbx"
+    }
+  ],
+  "parts": [
+    {
+      "name": "MAC_R_UpperArm",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.2596644163131714
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.020167797803878784
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0904359817504883
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        25.966442108154297,
+        109.04359436035156,
+        -2.016779899597168
+      ]
+    },
+    {
+      "name": "MAC_R_LowerArm",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.2892906963825226
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.20675742626190186
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0732311010360718
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        28.92906951904297,
+        107.32311248779297,
+        -20.675743103027344
+      ]
+    },
+    {
+      "name": "MAC_R_Hand",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.1841840296983719
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.32606735825538635
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0699454545974731
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        18.41840362548828,
+        106.99454498291016,
+        -32.60673522949219
+      ]
+    },
+    {
+      "name": "MAC_L_UpperArm",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.2785452604293823
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0043342225253582
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0757808685302734
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        -27.85452651977539,
+        107.57808685302734,
+        0.4334222674369812
+      ]
+    },
+    {
+      "name": "MAC_L_LowerArm",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.304191917181015
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.15835271775722504
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0337114334106445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        -30.419191360473633,
+        103.37113952636719,
+        -15.835271835327148
+      ]
+    },
+    {
+      "name": "MAC_L_Hand",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.2790084481239319
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.36805057525634766
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.0432159900665283
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        -27.90084457397461,
+        104.32160186767578,
+        -36.805057525634766
+      ]
+    },
+    {
+      "name": "MAC_Handle",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.12397538125514984
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.18228177726268768
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.9097833037376404
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        12.397538125514984,
+        90.97833037376404,
+        -18.22817772626877
+      ]
+    },
+    {
+      "name": "MAC_Body",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.26691439747810364
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.6979398727416992
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.5010273456573486
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        26.691439747810364,
+        150.10273456573486,
+        -69.79398727416992
+      ]
+    },
+    {
+      "name": "MAC_Obsidian",
+      "matrix_blender": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.26244056224823
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -0.7133198380470276
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.5190383195877075
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "level_origin_before_T_cm": [
+        26.244056224822998,
+        151.90383195877075,
+        -71.33198380470276
+      ]
+    }
+  ],
+  "v11": {
+    "weapon_model": "Macuahuitl_TwoHand.glb scale 0.8 (1.55 m), grip R model x 0.45 / L 0.65",
+    "regenerated": [
+      "Meshes/Deploy_0/Macuahuitl.fbx",
+      "Macuahuitl_Base.fbx"
+    ],
+    "not_regenerated": "Meshes/Deploy_1..6 and Skins/* still hold the v10 one-hand weapon — do not ship them with v11 clips",
+    "materials": {
+      "MAC_Handle": [
+        "MAC_Jade_handle_copper",
+        "MAC_Jade_handle_leather",
+        "MAC_Jade_handle_jade",
+        "MAC_Jade_handle"
+      ],
+      "MAC_Body": [
+        "MAC_Jade_body"
+      ],
+      "MAC_Obsidian": [
+        "MAC_Jade_edge"
+      ],
+      "arms": "MAC_Jade_arms"
+    },
+    "polycount_note": "no decimation (user decision): Obsidian ~381k verts"
+  }
+}

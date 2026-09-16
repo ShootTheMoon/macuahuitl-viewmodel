@@ -1,0 +1,334 @@
+{
+  "formula": "level = 100 x (-x, z, y) + [1000.944095, -92.593801, 1230.791631]",
+  "parts": {
+    "MAC_R_UpperArm": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_R_UpperArm.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_R_UpperArm",
+      "triangles": 74,
+      "triangles_before": 74,
+      "within_limit": true,
+      "level_cframe_position": [
+        1026.9105,
+        16.4498,
+        1228.7749
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        18.304,
+        16.13,
+        20.391
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        1026.9105,
+        16.4498,
+        1228.7749
+      ]
+    },
+    "MAC_R_LowerArm": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_R_LowerArm.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_R_LowerArm",
+      "triangles": 28,
+      "triangles_before": 28,
+      "within_limit": true,
+      "level_cframe_position": [
+        1029.8732,
+        14.7293,
+        1210.1159
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        17.679,
+        11.718,
+        16.937
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        1029.8732,
+        14.7293,
+        1210.1159
+      ]
+    },
+    "MAC_R_Hand": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_R_Hand.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_R_Hand",
+      "triangles": 114,
+      "triangles_before": 114,
+      "within_limit": true,
+      "level_cframe_position": [
+        1018.8441,
+        13.3242,
+        1197.4399
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        21.908,
+        19.282,
+        15.976
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        1019.3625,
+        14.4007,
+        1198.1849
+      ]
+    },
+    "MAC_L_UpperArm": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_L_UpperArm.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_L_UpperArm",
+      "triangles": 68,
+      "triangles_before": 68,
+      "within_limit": true,
+      "level_cframe_position": [
+        973.0896,
+        14.9843,
+        1231.2251
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        21.229,
+        18.11,
+        17.289
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        973.0896,
+        14.9843,
+        1231.2251
+      ]
+    },
+    "MAC_L_LowerArm": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_L_LowerArm.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_L_LowerArm",
+      "triangles": 56,
+      "triangles_before": 56,
+      "within_limit": true,
+      "level_cframe_position": [
+        970.5249,
+        10.7773,
+        1214.9564
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        18.248,
+        10.999,
+        15.939
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        970.5249,
+        10.7773,
+        1214.9564
+      ]
+    },
+    "MAC_L_Hand": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_L_Hand.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_L_Hand",
+      "triangles": 114,
+      "triangles_before": 114,
+      "within_limit": true,
+      "level_cframe_position": [
+        972.7396,
+        11.8036,
+        1194.0138
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        17.541,
+        16.924,
+        25.469
+      ],
+      "level_color": [
+        60,
+        91,
+        95
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "v10 기본 팔 메시 그대로 (게임에 있던 팔과 같은 모양)",
+      "fbx_mb": 0.02,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "contract_rest_level_position": [
+        973.0433,
+        11.7278,
+        1193.9866
+      ]
+    },
+    "MAC_Handle": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_Handle.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_Handle",
+      "triangles": 18470,
+      "triangles_before": 18470,
+      "within_limit": true,
+      "level_cframe_position": [
+        1013.3416,
+        -1.6155,
+        1212.5635
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        16.173,
+        48.839,
+        43.327
+      ],
+      "level_color": [
+        58,
+        54,
+        50
+      ],
+      "level_material": "Plastic",
+      "texture": null,
+      "note": "가죽 감개 기준 단색. 구리 고리·옥 폼멜·구리 가면은 같은 색이 됨",
+      "fbx_mb": 0.54,
+      "bbox_center_shift_after_decimate_cm": 0.0,
+      "source_material_srgb": [
+        40,
+        45,
+        43
+      ]
+    },
+    "MAC_Body": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_Body.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_Body",
+      "triangles": 1054,
+      "triangles_before": 1054,
+      "within_limit": true,
+      "level_cframe_position": [
+        1027.6355,
+        57.5089,
+        1160.9976
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        30.209,
+        76.136,
+        66.86
+      ],
+      "level_color": [
+        255,
+        255,
+        255
+      ],
+      "level_material": "Plastic",
+      "texture": "Textures/T_MAC_Body_BaseColor_1024.png",
+      "note": "텍스처가 곱해지므로 Color 는 흰색. 텍스처가 안 붙으면 Color = [120, 72, 44]",
+      "fbx_mb": 0.32,
+      "bbox_center_shift_after_decimate_cm": 0.0
+    },
+    "MAC_Obsidian": {
+      "fbx": "Meshes/Macuahuitl_Viewmodel_v11_MAC_Obsidian.fbx",
+      "asset_name_hint": "Macuahuitl_Viewmodel_v11_MAC_Obsidian",
+      "triangles": 28420,
+      "triangles_before": 194120,
+      "within_limit": true,
+      "level_cframe_position": [
+        1027.1834,
+        59.3078,
+        1159.4515
+      ],
+      "level_orientation": [
+        0,
+        0,
+        0
+      ],
+      "expected_size_cm": [
+        37.496,
+        68.993,
+        57.393
+      ],
+      "level_color": [
+        46,
+        50,
+        56
+      ],
+      "level_material": "Metal",
+      "texture": null,
+      "note": "흑요석. 원래 색은 거의 검정이라 한 단계 밝힘",
+      "fbx_mb": 3.41,
+      "bbox_center_shift_after_decimate_cm": 0.01,
+      "source_material_srgb": [
+        29,
+        39,
+        43
+      ]
+    }
+  },
+  "model": "Workspace.Macuahuitl_Viewmodel — all 9 MeshParts replaced (full re-import)"
+}

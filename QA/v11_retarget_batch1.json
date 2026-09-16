@@ -1,0 +1,201 @@
+{
+  "RunStart": {
+    "frames": 13,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.2,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "RunLoop": {
+    "frames": 25,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.3,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": [
+      0.0,
+      0.05506
+    ]
+  },
+  "RunStop": {
+    "frames": 13,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.2,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "loop_seam_src_new": null
+  },
+  "WalkStart": {
+    "frames": 7,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 7.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "loop_seam_src_new": null
+  },
+  "WalkLoop": {
+    "frames": 25,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "loop_seam_src_new": [
+      0.0,
+      0.03877
+    ]
+  },
+  "WalkStop": {
+    "frames": 7,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "loop_seam_src_new": null
+  },
+  "Attack1": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.6,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "Attack2": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 8.1,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "Attack3": {
+    "frames": 40,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 11.4,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "WalkAttack1": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "WalkAttack2": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 8.2,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "WalkAttack3": {
+    "frames": 40,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 11.8,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "SprintAttack1": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 13.5,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "SprintAttack2": {
+    "frames": 31,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 13.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "SprintAttack3": {
+    "frames": 40,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 13.8,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "CrouchIn": {
+    "frames": 19,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.1,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "CrouchIdle": {
+    "frames": 61,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.4,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": [
+      0.0,
+      0.01222
+    ]
+  },
+  "CrouchAttack": {
+    "frames": 37,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 1,
+    "shoulder_max_cm": 15.0,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  },
+  "CrouchOut": {
+    "frames": 19,
+    "rows_ok": true,
+    "roundtrip_max": 5e-05,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.1,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "loop_seam_src_new": null
+  }
+}

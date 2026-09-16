@@ -1,0 +1,455 @@
+{
+  "method": "default v10 arm meshes; shoulder offset direction chosen per frame to keep the upper-arm cut end off screen",
+  "v10": {
+    "total": {
+      "R": 1137,
+      "L": 176
+    },
+    "clips": {
+      "Attack1": {
+        "R": [
+          31,
+          31
+        ]
+      },
+      "Attack2": {
+        "R": [
+          31,
+          31
+        ]
+      },
+      "Attack3": {
+        "R": [
+          39,
+          40
+        ],
+        "L": [
+          11,
+          40
+        ]
+      },
+      "BlockHold": {
+        "R": [
+          31,
+          31
+        ],
+        "L": [
+          31,
+          31
+        ]
+      },
+      "BlockIn": {
+        "R": [
+          10,
+          10
+        ],
+        "L": [
+          3,
+          10
+        ]
+      },
+      "BlockOut": {
+        "R": [
+          13,
+          13
+        ],
+        "L": [
+          4,
+          13
+        ]
+      },
+      "CrouchAttack": {
+        "R": [
+          14,
+          37
+        ]
+      },
+      "CrouchIn": {
+        "R": [
+          7,
+          19
+        ]
+      },
+      "CrouchOut": {
+        "R": [
+          7,
+          19
+        ]
+      },
+      "Draw": {
+        "R": [
+          30,
+          40
+        ]
+      },
+      "Holster": {
+        "R": [
+          15,
+          25
+        ]
+      },
+      "Idle": {
+        "R": [
+          120,
+          120
+        ]
+      },
+      "Intro": {
+        "R": [
+          85,
+          120
+        ]
+      },
+      "JumpSlam": {
+        "R": [
+          80,
+          120
+        ],
+        "L": [
+          20,
+          120
+        ]
+      },
+      "RareDraw": {
+        "R": [
+          70,
+          120
+        ],
+        "L": [
+          8,
+          120
+        ]
+      },
+      "RunStart": {
+        "R": [
+          7,
+          13
+        ]
+      },
+      "RunStop": {
+        "R": [
+          7,
+          13
+        ]
+      },
+      "SprintAttack1": {
+        "R": [
+          20,
+          31
+        ],
+        "L": [
+          15,
+          31
+        ]
+      },
+      "SprintAttack2": {
+        "R": [
+          25,
+          31
+        ],
+        "L": [
+          20,
+          31
+        ]
+      },
+      "SprintAttack3": {
+        "R": [
+          30,
+          40
+        ],
+        "L": [
+          27,
+          40
+        ]
+      },
+      "SprintDraw": {
+        "R": [
+          21,
+          37
+        ]
+      },
+      "SprintTwirl": {
+        "R": [
+          33,
+          43
+        ]
+      },
+      "Transform": {
+        "R": [
+          110,
+          120
+        ]
+      },
+      "UltAttack": {
+        "R": [
+          120,
+          120
+        ],
+        "L": [
+          14,
+          120
+        ]
+      },
+      "WalkAttack1": {
+        "R": [
+          31,
+          31
+        ]
+      },
+      "WalkAttack2": {
+        "R": [
+          31,
+          31
+        ]
+      },
+      "WalkAttack3": {
+        "R": [
+          38,
+          40
+        ],
+        "L": [
+          11,
+          40
+        ]
+      },
+      "WalkLoop": {
+        "R": [
+          25,
+          25
+        ]
+      },
+      "WalkStart": {
+        "R": [
+          7,
+          7
+        ]
+      },
+      "WalkStop": {
+        "R": [
+          7,
+          7
+        ]
+      },
+      "TransitionBlockToCrouch": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          1,
+          5
+        ]
+      },
+      "TransitionBlockToHolster": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          1,
+          5
+        ]
+      },
+      "TransitionBlockToIdle": {
+        "R": [
+          5,
+          5
+        ],
+        "L": [
+          2,
+          5
+        ]
+      },
+      "TransitionBlockToRun": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          2,
+          5
+        ]
+      },
+      "TransitionCrouchToBlock": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          1,
+          5
+        ]
+      },
+      "TransitionCrouchToIdle": {
+        "R": [
+          2,
+          5
+        ]
+      },
+      "TransitionHolsterToBlock": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          1,
+          5
+        ]
+      },
+      "TransitionHolsterToIdle": {
+        "R": [
+          2,
+          5
+        ]
+      },
+      "TransitionIdleToBlock": {
+        "R": [
+          5,
+          5
+        ],
+        "L": [
+          2,
+          5
+        ]
+      },
+      "TransitionIdleToCrouch": {
+        "R": [
+          2,
+          5
+        ]
+      },
+      "TransitionIdleToHolster": {
+        "R": [
+          2,
+          5
+        ]
+      },
+      "TransitionIdleToRun": {
+        "R": [
+          3,
+          5
+        ]
+      },
+      "TransitionRunToBlock": {
+        "R": [
+          3,
+          5
+        ],
+        "L": [
+          2,
+          5
+        ]
+      },
+      "TransitionRunToIdle": {
+        "R": [
+          3,
+          5
+        ]
+      }
+    }
+  },
+  "v11_3": {
+    "total": {
+      "R": 111,
+      "L": 20
+    },
+    "clips": {
+      "Attack1": {
+        "R": [
+          4,
+          54
+        ]
+      },
+      "Attack2": {
+        "L": [
+          1,
+          54
+        ]
+      },
+      "Draw": {
+        "L": [
+          2,
+          56
+        ]
+      },
+      "Intro": {
+        "R": [
+          40,
+          120
+        ]
+      },
+      "JumpSlam": {
+        "L": [
+          10,
+          120
+        ]
+      },
+      "RareDraw": {
+        "R": [
+          16,
+          120
+        ]
+      },
+      "SprintAttack1": {
+        "R": [
+          4,
+          54
+        ]
+      },
+      "SprintAttack2": {
+        "R": [
+          1,
+          54
+        ]
+      },
+      "SprintTwirl": {
+        "L": [
+          1,
+          60
+        ]
+      },
+      "Transform": {
+        "R": [
+          38,
+          120
+        ]
+      },
+      "UltAttack": {
+        "L": [
+          6,
+          120
+        ]
+      },
+      "WalkAttack1": {
+        "R": [
+          4,
+          54
+        ]
+      },
+      "TransitionBlockToCrouch": {
+        "R": [
+          1,
+          5
+        ]
+      },
+      "TransitionBlockToHolster": {
+        "R": [
+          1,
+          5
+        ]
+      },
+      "TransitionCrouchToBlock": {
+        "R": [
+          1,
+          5
+        ]
+      },
+      "TransitionHolsterToBlock": {
+        "R": [
+          1,
+          5
+        ]
+      }
+    }
+  }
+}

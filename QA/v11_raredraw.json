@@ -1,0 +1,26 @@
+{
+  "frames": 120,
+  "release_spin_deg_per_f": 16.1,
+  "align_extra_deg": 77.1,
+  "max_dist_m": 4.32,
+  "release_speed_m_per_f": 0.183,
+  "max_com_step_cm_rows_37_91": 32.6,
+  "first_last_weapon_err_cm": [
+    0.0,
+    0.0
+  ],
+  "R": {
+    "over_frames": 4,
+    "shoulder_shift_max_cm": 14.75,
+    "wrist_gap_max_cm": 5.23,
+    "elbow_gap_max_cm": 0.94,
+    "cut_end_visible_frames": 1
+  },
+  "L": {
+    "over_frames": 0,
+    "shoulder_shift_max_cm": 14.4,
+    "wrist_gap_max_cm": 0.61,
+    "elbow_gap_max_cm": 1.65,
+    "cut_end_visible_frames": 1
+  }
+}

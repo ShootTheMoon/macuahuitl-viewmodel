@@ -1,0 +1,11 @@
+# 대용량 바이너리는 올리지 않는다 (로컬/바탕화면 zip 에 있음)
+*.blend
+*.blend1
+*.fbx
+*.mp4
+*.wav
+Checkpoints/
+QA/Video/
+QA/V11/
+QA/Showcase/
+QA/VideoCheck/

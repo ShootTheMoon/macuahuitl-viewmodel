@@ -1,0 +1,384 @@
+{
+  "RunStart": {
+    "frames": 13,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.2,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "RunLoop": {
+    "frames": 25,
+    "loop": true,
+    "loop_seam": 0.0,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.7,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "RunStop": {
+    "frames": 13,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.2,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkStart": {
+    "frames": 7,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 7.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkLoop": {
+    "frames": 25,
+    "loop": true,
+    "loop_seam": 0.0,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkStop": {
+    "frames": 7,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 9.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.61,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "Attack1": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.9,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "Attack2": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 7.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "Attack3": {
+    "frames": 71,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.5,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkAttack1": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 11.3,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkAttack2": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 7.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "WalkAttack3": {
+    "frames": 71,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.9,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "SprintAttack1": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.0,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "SprintAttack2": {
+    "frames": 55,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 12.9,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "SprintAttack3": {
+    "frames": 71,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.9,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "CrouchIn": {
+    "frames": 19,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.1,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "CrouchIdle": {
+    "frames": 61,
+    "loop": true,
+    "loop_seam": 0.0,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.4,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "CrouchAttack": {
+    "frames": 67,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 11,
+    "shoulder_max_cm": 15.0,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.81,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "CrouchOut": {
+    "frames": 19,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 10.1,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": null,
+    "grip_events": []
+  },
+  "Draw": {
+    "frames": 56,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 3,
+    "shoulder_max_cm": 15.0,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": [
+      [
+        0,
+        0.0
+      ],
+      [
+        11,
+        0.0
+      ],
+      [
+        20,
+        1.0
+      ]
+    ],
+    "grip_events": [
+      {
+        "frame": 21,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 0.6667
+      },
+      {
+        "frame": 21,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 0.6667
+      }
+    ]
+  },
+  "Holster": {
+    "frames": 35,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 8.8,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": [
+      [
+        0,
+        1.0
+      ],
+      [
+        8,
+        1.0
+      ],
+      [
+        17,
+        0.0
+      ]
+    ],
+    "grip_events": [
+      {
+        "frame": 9,
+        "event": "left_grip_release",
+        "strength": 1,
+        "time": 0.2667
+      },
+      {
+        "frame": 9,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open",
+        "time": 0.2667
+      }
+    ]
+  },
+  "SprintDraw": {
+    "frames": 51,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.8,
+    "elbow_gap_cm": 1.66,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": [
+      [
+        0,
+        0.0
+      ],
+      [
+        24,
+        0.0
+      ],
+      [
+        32,
+        1.0
+      ]
+    ],
+    "grip_events": [
+      {
+        "frame": 33,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.0667
+      },
+      {
+        "frame": 33,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.0667
+      }
+    ]
+  },
+  "SprintTwirl": {
+    "frames": 60,
+    "loop": false,
+    "loop_seam": null,
+    "over_frames": 0,
+    "shoulder_max_cm": 14.8,
+    "elbow_gap_cm": 1.65,
+    "wrist_gap_cm": 0.62,
+    "grip_keys": [
+      [
+        0,
+        1.0
+      ],
+      [
+        6,
+        1.0
+      ],
+      [
+        13,
+        0.0
+      ],
+      [
+        46,
+        0.0
+      ],
+      [
+        53,
+        1.0
+      ]
+    ],
+    "grip_events": [
+      {
+        "frame": 7,
+        "event": "left_grip_release",
+        "strength": 1,
+        "time": 0.2
+      },
+      {
+        "frame": 7,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open",
+        "time": 0.2
+      },
+      {
+        "frame": 54,
+        "event": "left_grip_join",
+        "strength": 1,
+        "time": 1.7667
+      },
+      {
+        "frame": 54,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip",
+        "time": 1.7667
+      }
+    ]
+  }
+}

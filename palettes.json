@@ -1,0 +1,93 @@
+{
+  "source": "Reference video recolor families adapted to existing three weapon material parts; no graphic/logo reproduction",
+  "palettes": {
+    "Jade": {
+      "arms": [
+        60,
+        91,
+        95
+      ],
+      "body": [
+        188,
+        164,
+        134
+      ],
+      "handle": [
+        62,
+        166,
+        70
+      ],
+      "edge": [
+        76,
+        76,
+        76
+      ]
+    },
+    "Crimson": {
+      "arms": [
+        48,
+        54,
+        60
+      ],
+      "body": [
+        190,
+        32,
+        43
+      ],
+      "handle": [
+        239,
+        210,
+        159
+      ],
+      "edge": [
+        51,
+        43,
+        44
+      ]
+    },
+    "AcidViolet": {
+      "arms": [
+        46,
+        45,
+        55
+      ],
+      "body": [
+        183,
+        213,
+        48
+      ],
+      "handle": [
+        98,
+        54,
+        182
+      ],
+      "edge": [
+        73,
+        41,
+        130
+      ]
+    },
+    "Porcelain": {
+      "arms": [
+        40,
+        48,
+        55
+      ],
+      "body": [
+        230,
+        235,
+        222
+      ],
+      "handle": [
+        199,
+        44,
+        53
+      ],
+      "edge": [
+        66,
+        86,
+        190
+      ]
+    }
+  }
+}

@@ -1,0 +1,1458 @@
+{
+  "attachments": {
+    "Tip": {
+      "part": "MAC_Body",
+      "rest_pivot_offset_m": [
+        0.33227,
+        0.763499,
+        -0.99297
+      ],
+      "space": "delta-transformed pivot-relative metres; multiply by posScale=240 in viewmodel space",
+      "v11_note": "TwoHand model x=-0.855 (scale 0.8); common-pivot-relative, level axes (-x, z, y)"
+    },
+    "Vent": {
+      "part": "MAC_Body",
+      "rest_pivot_offset_m": [
+        0.197756,
+        0.099762,
+        -0.412456
+      ],
+      "space": "delta-transformed pivot-relative metres; multiply by posScale=240 in viewmodel space",
+      "v11_note": "TwoHand model x=0.260 (scale 0.8); common-pivot-relative, level axes (-x, z, y)"
+    },
+    "Impact": {
+      "part": "MAC_Body",
+      "rest_pivot_offset_m": [
+        0.28341,
+        0.522411,
+        -0.782111
+      ],
+      "space": "delta-transformed pivot-relative metres; multiply by posScale=240 in viewmodel space",
+      "v11_note": "TwoHand model x=-0.450 (scale 0.8); common-pivot-relative, level axes (-x, z, y)"
+    }
+  },
+  "clips": {
+    "Draw": [
+      {
+        "time": 0.6667,
+        "event": "left_grip_join",
+        "strength": 1
+      },
+      {
+        "time": 0.6667,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip"
+      }
+    ],
+    "Idle": [],
+    "RunStart": [],
+    "RunLoop": [],
+    "RunStop": [],
+    "Attack1": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "Attack2": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "Attack3": [
+      {
+        "time": 0.7333,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 1.0,
+        "event": "impact",
+        "strength": 1.5
+      },
+      {
+        "time": 1.0,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 1.0,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "BlockIn": [],
+    "BlockHold": [],
+    "BlockOut": [],
+    "CrouchIn": [],
+    "CrouchIdle": [],
+    "CrouchOut": [],
+    "FirstDraw": [
+      {
+        "time": 1.2667,
+        "event": "left_grip_join",
+        "strength": 1
+      },
+      {
+        "time": 1.2667,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip"
+      },
+      {
+        "time": 1.7725,
+        "event": "mechanism_open"
+      },
+      {
+        "time": 1.9529,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.26666666666666666,
+        "size": 2.4
+      },
+      {
+        "time": 2.0431,
+        "event": "transform_lock",
+        "asset": "Flame",
+        "life": 0.26666666666666666
+      },
+      {
+        "time": 2.5843,
+        "event": "restore_start"
+      }
+    ],
+    "CrouchAttack": [
+      {
+        "time": 0.7333,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8333,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8333,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8333,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "JumpSlam": [
+      {
+        "time": 1.2994,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 1.7951,
+        "event": "impact",
+        "strength": 1.5
+      },
+      {
+        "time": 1.7951,
+        "event": "fx",
+        "asset": "Shockwave",
+        "life": 0.35
+      },
+      {
+        "time": 1.7951,
+        "event": "camera_kick",
+        "pitch_degrees": 3,
+        "recover_seconds": 0.12
+      }
+    ],
+    "SprintTwirl": [
+      {
+        "time": 0.2,
+        "event": "left_grip_release",
+        "strength": 1
+      },
+      {
+        "time": 0.2,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open"
+      },
+      {
+        "time": 0.6087,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 1.5921,
+        "event": "catch",
+        "strength": 1
+      },
+      {
+        "time": 1.7667,
+        "event": "left_grip_join",
+        "strength": 1
+      },
+      {
+        "time": 1.7667,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip"
+      }
+    ],
+    "RareDraw": [
+      {
+        "time": 0.9333,
+        "event": "heavy_windup",
+        "strength": 1
+      },
+      {
+        "time": 1.3333,
+        "event": "left_grip_release",
+        "strength": 1
+      },
+      {
+        "time": 1.3333,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open"
+      },
+      {
+        "time": 1.3333,
+        "event": "hand_mesh",
+        "hand": "R",
+        "mesh": "Open"
+      },
+      {
+        "time": 1.3333333333333333,
+        "event": "hand_mesh",
+        "part": "MAC_R_Hand",
+        "mesh": "Open"
+      },
+      {
+        "time": 1.3333333333333333,
+        "event": "release"
+      },
+      {
+        "time": 1.4,
+        "event": "whoosh"
+      },
+      {
+        "time": 2.0,
+        "event": "turnaround"
+      },
+      {
+        "time": 2.6,
+        "event": "return_whoosh"
+      },
+      {
+        "time": 2.6666666666666665,
+        "event": "pitch_up"
+      },
+      {
+        "time": 2.9333,
+        "event": "hand_mesh",
+        "hand": "R",
+        "mesh": "Grip"
+      },
+      {
+        "time": 2.9333,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip"
+      },
+      {
+        "time": 2.9333,
+        "event": "left_grip_join",
+        "strength": 1
+      },
+      {
+        "time": 2.9333,
+        "event": "camera_kick",
+        "pitch_degrees": 0.8,
+        "recover_seconds": 0.3
+      },
+      {
+        "time": 2.933333333333333,
+        "event": "hand_mesh",
+        "part": "MAC_R_Hand",
+        "mesh": "Grip"
+      },
+      {
+        "time": 2.933333333333333,
+        "event": "catch",
+        "sound": "Audio/Catch_Tak.wav"
+      },
+      {
+        "time": 2.966666666666667,
+        "event": "catch_recoil"
+      }
+    ],
+    "SprintDraw": [
+      {
+        "time": 1.0667,
+        "event": "left_grip_join",
+        "strength": 1
+      },
+      {
+        "time": 1.0667,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Grip"
+      }
+    ],
+    "Holster": [
+      {
+        "time": 0.2667,
+        "event": "left_grip_release",
+        "strength": 1
+      },
+      {
+        "time": 0.2667,
+        "event": "hand_mesh",
+        "hand": "L",
+        "mesh": "Open"
+      }
+    ],
+    "Transform": [
+      {
+        "time": 0.0,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.0667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.1333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.2,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.2667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.3333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.4,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.4667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.5333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.6,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.6667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.7333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.8,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.8667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 0.9333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.0,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.0667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.1333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.2,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.2667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": 0.0
+      },
+      {
+        "time": 1.3333,
+        "event": "glow_key",
+        "intensity": 0.235,
+        "fill": 0.0
+      },
+      {
+        "time": 1.4,
+        "event": "glow_key",
+        "intensity": 0.24,
+        "fill": 0.06
+      },
+      {
+        "time": 1.4667,
+        "event": "glow_key",
+        "intensity": 0.337,
+        "fill": 0.12
+      },
+      {
+        "time": 1.5024,
+        "event": "mechanism_open"
+      },
+      {
+        "time": 1.5333,
+        "event": "glow_key",
+        "intensity": 0.47,
+        "fill": 0.12
+      },
+      {
+        "time": 1.6,
+        "event": "glow_key",
+        "intensity": 0.78,
+        "fill": 0.24
+      },
+      {
+        "time": 1.6667,
+        "event": "glow_key",
+        "intensity": 0.889,
+        "fill": 0.694
+      },
+      {
+        "time": 1.6833,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.26666666666666666,
+        "size": 2.4
+      },
+      {
+        "time": 1.7333,
+        "event": "glow_key",
+        "intensity": 1.0,
+        "fill": 1.116
+      },
+      {
+        "time": 1.7667,
+        "event": "glow_key",
+        "intensity": 1.9,
+        "fill": 1.008
+      },
+      {
+        "time": 1.7738,
+        "event": "transform_lock",
+        "asset": "Flame",
+        "life": 0.26666666666666666
+      },
+      {
+        "time": 1.8,
+        "event": "glow_key",
+        "intensity": 1.731,
+        "fill": 1.0
+      },
+      {
+        "time": 1.8667,
+        "event": "glow_key",
+        "intensity": 1.25,
+        "fill": 1.0
+      },
+      {
+        "time": 1.9333,
+        "event": "glow_key",
+        "intensity": 1.191,
+        "fill": 1.0
+      },
+      {
+        "time": 2.0,
+        "event": "glow_key",
+        "intensity": 1.068,
+        "fill": 1.0
+      },
+      {
+        "time": 2.0667,
+        "event": "glow_key",
+        "intensity": 0.967,
+        "fill": 1.0
+      },
+      {
+        "time": 2.1333,
+        "event": "glow_key",
+        "intensity": 0.947,
+        "fill": 1.0
+      },
+      {
+        "time": 2.2,
+        "event": "glow_key",
+        "intensity": 0.924,
+        "fill": 1.0
+      },
+      {
+        "time": 2.2667,
+        "event": "glow_key",
+        "intensity": 0.892,
+        "fill": 1.0
+      },
+      {
+        "time": 2.3333,
+        "event": "glow_key",
+        "intensity": 0.863,
+        "fill": 1.0
+      },
+      {
+        "time": 2.4,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0
+      },
+      {
+        "time": 2.4667,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 2.5333,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0
+      },
+      {
+        "time": 2.6,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0
+      },
+      {
+        "time": 2.6333,
+        "event": "enable_empowered_attack"
+      },
+      {
+        "time": 2.6667,
+        "event": "glow_key",
+        "intensity": 0.945,
+        "fill": 1.0
+      },
+      {
+        "time": 2.7333,
+        "event": "glow_key",
+        "intensity": 0.95,
+        "fill": 1.0
+      },
+      {
+        "time": 2.8,
+        "event": "glow_key",
+        "intensity": 0.945,
+        "fill": 1.0
+      },
+      {
+        "time": 2.8667,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0
+      },
+      {
+        "time": 2.9333,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0
+      },
+      {
+        "time": 3.0,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 3.0667,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0
+      },
+      {
+        "time": 3.1333,
+        "event": "glow_key",
+        "intensity": 0.819,
+        "fill": 1.0
+      },
+      {
+        "time": 3.2,
+        "event": "glow_key",
+        "intensity": 0.791,
+        "fill": 1.0
+      },
+      {
+        "time": 3.2667,
+        "event": "glow_key",
+        "intensity": 0.769,
+        "fill": 1.0
+      },
+      {
+        "time": 3.3333,
+        "event": "glow_key",
+        "intensity": 0.755,
+        "fill": 1.0
+      },
+      {
+        "time": 3.4,
+        "event": "glow_key",
+        "intensity": 0.75,
+        "fill": 1.0
+      },
+      {
+        "time": 3.4667,
+        "event": "glow_key",
+        "intensity": 0.755,
+        "fill": 1.0
+      },
+      {
+        "time": 3.5333,
+        "event": "glow_key",
+        "intensity": 0.769,
+        "fill": 1.0
+      },
+      {
+        "time": 3.6,
+        "event": "glow_key",
+        "intensity": 0.791,
+        "fill": 1.0
+      },
+      {
+        "time": 3.6667,
+        "event": "glow_key",
+        "intensity": 0.819,
+        "fill": 1.0
+      },
+      {
+        "time": 3.7333,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0
+      },
+      {
+        "time": 3.8,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 3.8667,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0
+      },
+      {
+        "time": 3.9333,
+        "event": "glow_key",
+        "intensity": 0.931,
+        "fill": 1.0
+      },
+      {
+        "time": 3.9667,
+        "event": "glow_key",
+        "intensity": 0.939,
+        "fill": 1.0
+      },
+      {
+        "time": 3.9667,
+        "event": "glow_hold",
+        "base": 0.85,
+        "amplitude": 0.1,
+        "period_seconds": 1.3333,
+        "fill": 1.0,
+        "until": "UltAttack start"
+      }
+    ],
+    "UltAttack": [
+      {
+        "time": 0.0,
+        "event": "glow_key",
+        "intensity": 0.85,
+        "fill": 1.0
+      },
+      {
+        "time": 0.0667,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 0.1333,
+        "event": "glow_key",
+        "intensity": 0.905,
+        "fill": 1.0
+      },
+      {
+        "time": 0.2,
+        "event": "glow_key",
+        "intensity": 0.915,
+        "fill": 1.0
+      },
+      {
+        "time": 0.2667,
+        "event": "glow_key",
+        "intensity": 0.909,
+        "fill": 1.0
+      },
+      {
+        "time": 0.3333,
+        "event": "glow_key",
+        "intensity": 0.894,
+        "fill": 1.0
+      },
+      {
+        "time": 0.4,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 0.4667,
+        "event": "glow_key",
+        "intensity": 0.881,
+        "fill": 1.0
+      },
+      {
+        "time": 0.5333,
+        "event": "glow_key",
+        "intensity": 0.9,
+        "fill": 1.0
+      },
+      {
+        "time": 0.6,
+        "event": "glow_key",
+        "intensity": 0.938,
+        "fill": 1.0
+      },
+      {
+        "time": 0.6667,
+        "event": "glow_key",
+        "intensity": 0.988,
+        "fill": 1.0
+      },
+      {
+        "time": 0.7333,
+        "event": "glow_key",
+        "intensity": 1.037,
+        "fill": 1.0
+      },
+      {
+        "time": 0.8,
+        "event": "glow_key",
+        "intensity": 1.074,
+        "fill": 1.0
+      },
+      {
+        "time": 0.8667,
+        "event": "glow_key",
+        "intensity": 1.092,
+        "fill": 1.0
+      },
+      {
+        "time": 0.9333,
+        "event": "glow_key",
+        "intensity": 1.09,
+        "fill": 1.0
+      },
+      {
+        "time": 1.0,
+        "event": "glow_key",
+        "intensity": 1.074,
+        "fill": 1.0
+      },
+      {
+        "time": 1.0667,
+        "event": "glow_key",
+        "intensity": 1.056,
+        "fill": 1.0
+      },
+      {
+        "time": 1.1333,
+        "event": "glow_key",
+        "intensity": 1.046,
+        "fill": 1.0
+      },
+      {
+        "time": 1.2,
+        "event": "glow_key",
+        "intensity": 1.051,
+        "fill": 1.0
+      },
+      {
+        "time": 1.2667,
+        "event": "glow_key",
+        "intensity": 1.106,
+        "fill": 1.0
+      },
+      {
+        "time": 1.3333,
+        "event": "glow_key",
+        "intensity": 1.219,
+        "fill": 1.0
+      },
+      {
+        "time": 1.4,
+        "event": "glow_key",
+        "intensity": 1.4,
+        "fill": 1.0
+      },
+      {
+        "time": 1.4667,
+        "event": "glow_key",
+        "intensity": 1.556,
+        "fill": 1.0
+      },
+      {
+        "time": 1.5333,
+        "event": "glow_key",
+        "intensity": 1.813,
+        "fill": 1.0
+      },
+      {
+        "time": 1.5667,
+        "event": "glow_key",
+        "intensity": 2.637,
+        "fill": 1.0
+      },
+      {
+        "time": 1.5821,
+        "event": "impact",
+        "asset": "Sparks",
+        "size": 3
+      },
+      {
+        "time": 1.5821,
+        "event": "consume_empowered_on_confirmed_hit"
+      },
+      {
+        "time": 1.6,
+        "event": "glow_key",
+        "intensity": 2.741,
+        "fill": 1.0
+      },
+      {
+        "time": 1.6667,
+        "event": "glow_key",
+        "intensity": 1.964,
+        "fill": 1.0
+      },
+      {
+        "time": 1.7333,
+        "event": "glow_key",
+        "intensity": 1.597,
+        "fill": 1.0
+      },
+      {
+        "time": 1.8,
+        "event": "glow_key",
+        "intensity": 1.539,
+        "fill": 1.0
+      },
+      {
+        "time": 1.8667,
+        "event": "glow_key",
+        "intensity": 1.427,
+        "fill": 1.0
+      },
+      {
+        "time": 1.9333,
+        "event": "glow_key",
+        "intensity": 1.285,
+        "fill": 1.0
+      },
+      {
+        "time": 2.0,
+        "event": "glow_key",
+        "intensity": 1.137,
+        "fill": 0.999
+      },
+      {
+        "time": 2.0667,
+        "event": "glow_key",
+        "intensity": 1.007,
+        "fill": 0.981
+      },
+      {
+        "time": 2.1333,
+        "event": "glow_key",
+        "intensity": 0.921,
+        "fill": 0.941
+      },
+      {
+        "time": 2.2,
+        "event": "glow_key",
+        "intensity": 0.899,
+        "fill": 0.883
+      },
+      {
+        "time": 2.2667,
+        "event": "glow_key",
+        "intensity": 0.878,
+        "fill": 0.809
+      },
+      {
+        "time": 2.3333,
+        "event": "glow_key",
+        "intensity": 0.832,
+        "fill": 0.723
+      },
+      {
+        "time": 2.4,
+        "event": "glow_key",
+        "intensity": 0.767,
+        "fill": 0.628
+      },
+      {
+        "time": 2.4667,
+        "event": "glow_key",
+        "intensity": 0.687,
+        "fill": 0.527
+      },
+      {
+        "time": 2.5333,
+        "event": "glow_key",
+        "intensity": 0.596,
+        "fill": 0.423
+      },
+      {
+        "time": 2.6,
+        "event": "glow_key",
+        "intensity": 0.498,
+        "fill": 0.319
+      },
+      {
+        "time": 2.6667,
+        "event": "glow_key",
+        "intensity": 0.398,
+        "fill": 0.218
+      },
+      {
+        "time": 2.7333,
+        "event": "glow_key",
+        "intensity": 0.301,
+        "fill": 0.124
+      },
+      {
+        "time": 2.8,
+        "event": "glow_key",
+        "intensity": 0.21,
+        "fill": 0.038
+      },
+      {
+        "time": 2.8667,
+        "event": "glow_key",
+        "intensity": 0.13,
+        "fill": -0.035
+      },
+      {
+        "time": 2.9333,
+        "event": "glow_key",
+        "intensity": 0.066,
+        "fill": -0.093
+      },
+      {
+        "time": 3.0,
+        "event": "glow_key",
+        "intensity": 0.021,
+        "fill": -0.132
+      },
+      {
+        "time": 3.0667,
+        "event": "glow_key",
+        "intensity": 0.001,
+        "fill": -0.149
+      },
+      {
+        "time": 3.1333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.2,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.2667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.3333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.4,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.4667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.5333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.6,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.6667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.7333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.8,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.8667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.9333,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      },
+      {
+        "time": 3.9667,
+        "event": "glow_key",
+        "intensity": 0.0,
+        "fill": -0.15
+      }
+    ],
+    "WalkAttack1": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "WalkAttack2": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "WalkAttack3": [
+      {
+        "time": 0.7333,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 1.0,
+        "event": "impact",
+        "strength": 1.5
+      },
+      {
+        "time": 1.0,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 1.0,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "SprintAttack1": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "SprintAttack2": [
+      {
+        "time": 0.6,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "impact",
+        "strength": 1
+      },
+      {
+        "time": 0.8,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 0.8,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ],
+    "SprintAttack3": [
+      {
+        "time": 0.7333,
+        "event": "whoosh",
+        "strength": 1
+      },
+      {
+        "time": 1.0,
+        "event": "impact",
+        "strength": 1.5
+      },
+      {
+        "time": 1.0,
+        "event": "fx",
+        "asset": "Sparks",
+        "life": 0.2
+      },
+      {
+        "time": 1.0,
+        "event": "camera_kick",
+        "pitch_degrees": 1.2,
+        "recover_seconds": 0.12
+      }
+    ]
+  },
+  "transform_states": [
+    {
+      "time": 1.5024,
+      "stage": 0
+    },
+    {
+      "time": 1.5476,
+      "stage": 1
+    },
+    {
+      "time": 1.5929,
+      "stage": 2
+    },
+    {
+      "time": 1.6381,
+      "stage": 3
+    },
+    {
+      "time": 1.6833,
+      "stage": 4
+    },
+    {
+      "time": 1.7286,
+      "stage": 5
+    },
+    {
+      "time": 1.7738,
+      "stage": 6
+    }
+  ],
+  "restore_states": [
+    {
+      "time": 0.0,
+      "stage": 6
+    },
+    {
+      "time": 0.06666666666666667,
+      "stage": 4
+    },
+    {
+      "time": 0.1,
+      "stage": 3
+    },
+    {
+      "time": 0.13333333333333333,
+      "stage": 2
+    },
+    {
+      "time": 0.16666666666666666,
+      "stage": 1
+    },
+    {
+      "time": 0.23333333333333334,
+      "stage": 0
+    }
+  ],
+  "empowered_hold": "One ultimate button press plays Transform fully (3.97s), then automatically plays UltAttack without another attack input. Keep stage 6 until its first confirmed hit, then restore. FirstDraw remains cosmetic only.",
+  "effect_assets": {
+    "Flame": {
+      "unit": "metres",
+      "life": 0.35,
+      "attachment": "Tip"
+    },
+    "Sparks": {
+      "life": 0.25,
+      "attachment": "Vent"
+    },
+    "Shockwave": {
+      "life": 0.35,
+      "radius_m": 3,
+      "space": "world ground at confirmed slam impact"
+    },
+    "Slash": {
+      "life": 0.12,
+      "attachment": "Impact"
+    }
+  },
+  "notes": [
+    "These are authored data/assets; engine spawning, lighting, opacity and damage are Claude integration.",
+    "VFX meshes are independent transient effects, not additions to the 9 viewmodel parts.",
+    "FBX emission does not guarantee engine glow; use engine emissive/particle settings."
+  ],
+  "ultimate_order": {
+    "activation": "Transform",
+    "activationDuration": 3.9667,
+    "damageDuringActivation": false,
+    "then": "automatically play UltAttack",
+    "attack": "UltAttack",
+    "hitAt": 1.5821,
+    "consumeOn": "first confirmed impact",
+    "restoreSeconds": 0.23333333333333334,
+    "requiresExtraAttackInput": false,
+    "hitAfterUltButton": 5.5488
+  },
+  "input_contract": {
+    "equip_standing": "Draw",
+    "equip_moving": "SprintDraw",
+    "attack_hold": "RareDraw",
+    "attack_walking": [
+      "WalkAttack1",
+      "WalkAttack2",
+      "WalkAttack3"
+    ],
+    "attack_sprinting": [
+      "SprintAttack1",
+      "SprintAttack2",
+      "SprintAttack3"
+    ],
+    "holster_semantics": "Holster means PUT AWAY; Draw means EQUIP. User casual holster wording refers to equip."
+  },
+  "hand_warning": "User reports BOTH hands appear reversed in the current engine. Do not mark chirality solved by rotation. Preserve world sides/names; confirm imported geometry before applying another mirror or rotation.",
+  "twirl_contract": {
+    "type": "automatic cosmetic weapon spin",
+    "trigger": "continuous movement",
+    "sustainedMoveSeconds": 4.0,
+    "repeatIntervalSeconds": 8.0,
+    "timersAreSuggestedDefaults": true,
+    "damage": 0,
+    "buff": null,
+    "attackInput": false,
+    "cancelOn": [
+      "movement stops",
+      "attack begins",
+      "equip changes"
+    ],
+    "returnPose": "RunLoop",
+    "note": "Weapon rotates around its grip; character does not spin or teleport."
+  },
+  "rare_draw_contract": {
+    "trigger": "hold attack",
+    "type": "cosmetic boomerang throw: open-hand release, banked flat spin on an out-and-back loop, returns across the lens, pitch-up catch",
+    "duration": 3.9667,
+    "releaseAt": 1.3333333333333333,
+    "catchAt": 2.933333333333333,
+    "airborneTurns": 4,
+    "rotationCenter": "weapon center, moving along the boomerang loop",
+    "loop": false,
+    "damage": 0,
+    "weaponOnly": true,
+    "catchSound": "Audio/Catch_Tak.wav",
+    "soundIsAuthoredPlaceholder": true,
+    "cancel": "restore Grip and blend weapon back to live ready pose",
+    "turnaroundAt": 2.0,
+    "spinAxis": "camera up (level +Y), flat yaw banked 16 deg; pitch up to grip angle before catch",
+    "reference": "youtu.be/sR4azZwG72s 2:30-2:35 Rare-Holster standing still"
+  },
+  "glow": {
+    "mask_texture": "Textures/T_MAC_Body_GlowMask.png",
+    "material": "MAC_Jade_body (emissive = color * intensity * max_strength * mask * fill_mask)",
+    "secondary_material": "MAC_Jade_handle_copper (emissive = color * intensity * 3.0, no mask)",
+    "color_linear_rgb": [
+      1.0,
+      0.42,
+      0.08
+    ],
+    "max_strength": 14.0,
+    "fill_axis": "0 = handle end of MAC_Body, 1 = blade tip (fraction of body length); fill_mask = clamp((fill*1.2 - axis)/0.15)",
+    "stage_fill_source": "mesh_contract stages fractions [0.0, 0.08, 0.22, 0.5, 0.78, 1.12, 1.0] at 1.502-1.774s",
+    "hold": {
+      "base": 0.85,
+      "amplitude": 0.1,
+      "period_seconds": 1.3333
+    },
+    "tracks": "clips.Transform / clips.UltAttack glow_key events (linear interpolate); others 0"
+  }
+}

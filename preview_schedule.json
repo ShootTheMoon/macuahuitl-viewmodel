@@ -1,0 +1,12 @@
+[
+  {
+    "clip": "RareDraw",
+    "start": 1,
+    "end": 64
+  },
+  {
+    "clip": "RareDraw_SlowReview",
+    "start": 65,
+    "end": 192
+  }
+]

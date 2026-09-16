@@ -1,0 +1,242 @@
+{
+  "TransitionIdleToRun": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 2.0
+  },
+  "TransitionIdleToCrouch": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 4.5
+  },
+  "TransitionIdleToBlock": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 18.3
+  },
+  "TransitionIdleToHolster": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 6.3
+  },
+  "TransitionRunToIdle": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 2.0
+  },
+  "TransitionRunToCrouch": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 5.3
+  },
+  "TransitionRunToBlock": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 22.9
+  },
+  "TransitionRunToHolster": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 6.2
+  },
+  "TransitionCrouchToIdle": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 4.5
+  },
+  "TransitionCrouchToRun": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 5.3
+  },
+  "TransitionCrouchToBlock": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 34.0
+  },
+  "TransitionCrouchToHolster": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 3.3
+  },
+  "TransitionBlockToIdle": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 18.3
+  },
+  "TransitionBlockToRun": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 22.9
+  },
+  "TransitionBlockToCrouch": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 34.0
+  },
+  "TransitionBlockToHolster": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.0,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 36.2
+  },
+  "TransitionHolsterToIdle": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 6.3
+  },
+  "TransitionHolsterToRun": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 6.2
+  },
+  "TransitionHolsterToCrouch": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.007
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 3.3
+  },
+  "TransitionHolsterToBlock": {
+    "frames": 5,
+    "v10_endpoint_err_cm": [
+      0.007,
+      0.0
+    ],
+    "v11_endpoint_err_cm": [
+      0.0,
+      0.0
+    ],
+    "weapon_path_dev_cm": 36.2
+  }
+}
