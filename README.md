@@ -4,9 +4,9 @@ OVERDARE 게임 `onlyoneshot` 의 `maxico` 직업 뷰모델. 한손 → 양손 �
 
 ![양손 파지](docs/grip_twohand.png)
 
-| 무기 모델 (TwoHand 1.55 m) | 변신 문양 발광 |
-|---|---|
-| ![모델](docs/model_twohand.png) | ![변신 발광](docs/transform_glow.png) |
+| 무기 모델 (TwoHand 1.55 m) | 변신 — 문양이 손잡이 쪽부터 차오름 | 변신 완료 |
+|---|---|---|
+| ![모델](docs/model_twohand.png) | ![차오르는 중](docs/transform_glow_half.png) | ![변신 발광](docs/transform_glow.png) |
 
 발광 텍스처 3단계 (채움 35% / 70% / 100%) — 궁 쓰면 이 순서로 바뀐다.
 
