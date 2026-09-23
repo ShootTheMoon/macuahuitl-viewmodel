@@ -1,0 +1,235 @@
+{
+  "id": "6efa90b5-0137-4565-8d9e-ad230d7e8284",
+  "video_input_id": null,
+  "youtube_url": "https://www.youtube.com/watch?v=sR4azZwG72s",
+  "status": "completed",
+  "fail_reason": null,
+  "video_s3_url": null,
+  "scenes": [
+    {
+      "audio": "Here are all the animations for the upcoming universal heirloom in season 26. Thanks EA for the invite to the preview event. I will also include all the pull out and twirling animations while sprinting.",
+      "label": "Opening Hook",
+      "visual": "View from eyes of a tall android character with metallic red/gold plating and black claw-like fingertips. Hands hold a red baseball bat with a white net pattern. Background is an outdoor desert training facility with concrete platforms and targets. Bright natural lighting with blue skies. Saturated color palette.",
+      "shot_type": "POV Shot",
+      "scene_number": 1,
+      "timestamp_end": "0:13",
+      "timestamp_start": "0:00"
+    },
+    {
+      "audio": "The deathbox, the recolors, and everything else you can think of.",
+      "label": "Product Information",
+      "visual": "A white and gold mechanical crate with rainbow stripes floats and rotates against a dark hexagonal background. Studio lighting highlights metallic textures. Sharp focus on the container's gold central lens.",
+      "shot_type": "Medium Shot",
+      "scene_number": 2,
+      "timestamp_end": "0:17",
+      "timestamp_start": "0:13"
+    },
+    {
+      "audio": "Mechanical clicks and whirring followed by the roaring sound of jet flames.",
+      "label": "Product Selling Points",
+      "visual": "The character triggers a button on the white/blue/red bat. The handle expands, revealing glowing internal components and venting orange fire from side ports. Handheld camera movement during the action. Background remains the sunny firing range.",
+      "shot_type": "POV Shot",
+      "scene_number": 3,
+      "timestamp_end": "0:24",
+      "timestamp_start": "0:17"
+    },
+    {
+      "audio": "Rapid metallic sliding sounds and intense fire whooshing.",
+      "label": "Product Selling Points",
+      "visual": "Character performs a complex inspection; the bat flips rapidly while emitting fire from the tip. Parts shift and slide in a high-tech manner. Character's red metallic claws grip the handle firmly. Bright daylight highlights the white paint of the bat.",
+      "shot_type": "POV Shot",
+      "scene_number": 4,
+      "timestamp_end": "0:34",
+      "timestamp_start": "0:24"
+    },
+    {
+      "audio": "Heavy mechanical latches unlocking and the sound of a pressurized can opening.",
+      "label": "Product Selling Points",
+      "visual": "The bat splits open down the middle. Character reaches in and pulls out a blue beverage can labeled 'JUICE'. The bat's interior shows gold lining and wiring. Warm sunlight reflects off the can's surface.",
+      "shot_type": "POV Shot",
+      "scene_number": 5,
+      "timestamp_end": "0:44",
+      "timestamp_start": "0:34"
+    },
+    {
+      "audio": "Metallic clanking as the bat closes, followed by a sustained fire roar and energy hum.",
+      "label": "Product Selling Points",
+      "visual": "Character tosses the can and reassembles the bat. It begins spinning at high speed, creating a circle of fire in front of the character. Handheld camera shakes with the intensity of the flames.",
+      "shot_type": "POV Shot",
+      "scene_number": 6,
+      "timestamp_end": "0:53",
+      "timestamp_start": "0:44"
+    },
+    {
+      "audio": "Subtle sliding of metal on gloves and rhythmic mechanical ticking.",
+      "label": "Product Selling Points",
+      "visual": "Character rotates the white bat horizontally, examining the 'SLAM' text. Fingers trace the grip. The handle end shows a red 'R5' logo. Soft shadows fall across the desert ground in the background.",
+      "shot_type": "POV Shot",
+      "scene_number": 7,
+      "timestamp_end": "1:06",
+      "timestamp_start": "0:53"
+    },
+    {
+      "audio": "Quiet metallic clinking and soft footsteps on sand.",
+      "label": "Usage Scenarios",
+      "visual": "Character lowers their perspective as if crouching. The bat is held across the chest. Camera moves with a slight sway to simulate walking while low. Bright sun creates hard shadows on the concrete floor.",
+      "shot_type": "POV Shot",
+      "scene_number": 8,
+      "timestamp_end": "1:12",
+      "timestamp_start": "1:06"
+    },
+    {
+      "audio": "Light plastic flicking sounds and a faint electronic chime.",
+      "label": "Product Selling Points",
+      "visual": "While crouching, the character pulls out a red collectible card showing an illustration of another character. The card is held up to the camera, then flipped. Hands are close-up, showing detailed gold mechanical joints.",
+      "shot_type": "POV Shot",
+      "scene_number": 9,
+      "timestamp_end": "1:21",
+      "timestamp_start": "1:12"
+    },
+    {
+      "audio": "Soft card shuffling sounds and a heavy metallic thud as the bat is gripped.",
+      "label": "Product Selling Points",
+      "visual": "Character continues looking at the card, flipping it to reveal different artwork. The card is put away and the bat is brought back into frame. Depth of field blurs the targets in the distance.",
+      "shot_type": "POV Shot",
+      "scene_number": 10,
+      "timestamp_end": "1:31",
+      "timestamp_start": "1:21"
+    },
+    {
+      "audio": "Sharp metallic click and the sound of air displacement.",
+      "label": "Usage Scenarios",
+      "visual": "Character quickly equips the bat from a holstered position. It performs a quick spin and a mechanical 'click' as it locks into the character's hand. High-speed action with motion blur.",
+      "shot_type": "POV Shot",
+      "scene_number": 11,
+      "timestamp_end": "1:35",
+      "timestamp_start": "1:31"
+    },
+    {
+      "audio": "Heavy thuds on impact, metallic ringing, and the sound of wood/metal striking plastic.",
+      "label": "Usage Scenarios",
+      "visual": "Character swings the red bat at purple training dummies. Each hit produces a red impact effect and sparks. Camera tracks the swinging motion. Background is the open-air firing range.",
+      "shot_type": "Medium Shot",
+      "scene_number": 12,
+      "timestamp_end": "1:50",
+      "timestamp_start": "1:35"
+    },
+    {
+      "audio": "Low-pitched swooshes and dull impacts.",
+      "label": "Usage Scenarios",
+      "visual": "Character performs low horizontal swings while crouching. The bat cuts through the air quickly. Camera tilts down toward the training dummy's legs.",
+      "shot_type": "POV Shot",
+      "scene_number": 13,
+      "timestamp_end": "1:55",
+      "timestamp_start": "1:50"
+    },
+    {
+      "audio": "Louder, explosive impact sound and heavy landing noise.",
+      "label": "Usage Scenarios",
+      "visual": "Character jumps and slams the bat down onto a dummy. Red shockwave effects appear on the ground. Background shows industrial buildings and mountains.",
+      "shot_type": "POV Shot",
+      "scene_number": 14,
+      "timestamp_end": "2:00",
+      "timestamp_start": "1:55"
+    },
+    {
+      "audio": "Fast-paced metallic clicking and the sound of heavy robotic breathing.",
+      "label": "Usage Scenarios",
+      "visual": "Character runs forward while spinning the white bat in their hand. The bat twirls continuously. The camera bobbles rhythmically to simulate a sprinting pace. Training equipment passes by quickly.",
+      "shot_type": "POV Shot",
+      "scene_number": 15,
+      "timestamp_end": "2:15",
+      "timestamp_start": "2:00"
+    },
+    {
+      "audio": "Consistent rhythmic mechanical deployment sounds.",
+      "label": "Usage Scenarios",
+      "visual": "Standing still, the character puts the bat away and pulls it back out multiple times. Each time it performs a different flourishing spin. Sunlight glints off the white polished surface.",
+      "shot_type": "POV Shot",
+      "scene_number": 16,
+      "timestamp_end": "2:30",
+      "timestamp_start": "2:15"
+    },
+    {
+      "audio": "Whistling air sound followed by a solid catch thud.",
+      "label": "Usage Scenarios",
+      "visual": "A rare holster animation: the character tosses the bat high into the air and catches it behind their back. Rapid camera tilt upwards following the object's arc.",
+      "shot_type": "POV Shot",
+      "scene_number": 17,
+      "timestamp_end": "2:34",
+      "timestamp_start": "2:30"
+    },
+    {
+      "audio": "Rapid footsteps on concrete and mechanical whirring.",
+      "label": "Usage Scenarios",
+      "visual": "While running, the character holsters the bat and draws it back out. The camera is very shaky. The character's red claws are visible on the edge of the frame.",
+      "shot_type": "POV Shot",
+      "scene_number": 18,
+      "timestamp_end": "2:47",
+      "timestamp_start": "2:34"
+    },
+    {
+      "audio": "Repetitive metallic clicks and clacks over a fast tempo wind noise.",
+      "label": "Usage Scenarios",
+      "visual": "Character continues running through the facility, repeating the holster/draw cycle. Diverse props like ammo boxes and weapon racks are visible in the background.",
+      "shot_type": "POV Shot",
+      "scene_number": 19,
+      "timestamp_end": "2:59",
+      "timestamp_start": "2:47"
+    },
+    {
+      "audio": "Up-tempo electronic music starts. A chaotic mix of hit sounds, fire roars, and mechanical clicks.",
+      "label": "Product Selling Points",
+      "visual": "Fast-cut montage showing a mix of attacks, sprints, and inspections. The camera moves aggressively with every action. Sparks and fire effects frequent the screen.",
+      "shot_type": "POV Shot",
+      "scene_number": 20,
+      "timestamp_end": "3:13",
+      "timestamp_start": "2:59"
+    },
+    {
+      "audio": "Climax of the music with heavy bass beats synced to the on-screen swings.",
+      "label": "Product Selling Points",
+      "visual": "Montage concludes with the character spinning the bat and sliding across the floor. Background shifts through different areas of the firing range facility.",
+      "shot_type": "POV Shot",
+      "scene_number": 21,
+      "timestamp_end": "3:26",
+      "timestamp_start": "3:13"
+    },
+    {
+      "audio": "Low-frequency hum and small mechanical servos whirring.",
+      "label": "Product Information",
+      "visual": "Detailed look at the 'Deathbox' from scene 2. It is white with a gold front panel, rainbow stripes, and a small screen showing 'DBX-01'. It rotates 360 degrees in front of a dark, tech-themed wall.",
+      "shot_type": "Wide Shot",
+      "scene_number": 22,
+      "timestamp_end": "3:39",
+      "timestamp_start": "3:26"
+    },
+    {
+      "audio": "Gentle mechanical clicking as the bat is turned.",
+      "label": "Product Information",
+      "visual": "Showcasing the red 'Recolor' version of the bat. It has a net pattern on the barrel and a digital screen on the handle base showing '2019'. Character rotates it slowly.",
+      "shot_type": "POV Shot",
+      "scene_number": 23,
+      "timestamp_end": "3:52",
+      "timestamp_start": "3:39"
+    },
+    {
+      "audio": "Soft metallic rustling and a faint energy pulse sound.",
+      "label": "Product Information",
+      "visual": "Showcasing the green 'Recolor' version with purple and yellow accents. The barrel features 'BOOM' text in a comic-book style font. The end cap logo is purple.",
+      "shot_type": "POV Shot",
+      "scene_number": 24,
+      "timestamp_end": "4:05",
+      "timestamp_start": "3:52"
+    },
+    {
+      "audio": "Final mechanical click and the music fades out.",
+      "label": "Product Information",
+      "visual": "Showcasing the final 'Recolor' with a white base and blue/red polka dots. The screen on the base says '35 PRO'. Background is the sun-drenched training grounds.",
+      "shot_type": "POV Shot",
+      "scene_number": 25,
+      "timestamp_end": "4:18",
+      "timestamp_start": "4:05"
+    }
+  ]
+}
