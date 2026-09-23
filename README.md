@@ -26,5 +26,16 @@ OVERDARE 게임 `onlyoneshot` 의 `maxico` 직업 뷰모델. 한손 → 양손 �
 | `Scripts/` | 제작 스크립트 (Blender 백그라운드 실행) |
 | `Import_OVERDARE/` | 게임 임포트 패키지 (Lua · 텍스처 · 배치표) |
 | `Game_Integration/` | 게임에 들어간 스크립트 현재본 사본 |
+| `history/pipeline_v01_v03/` | v11 이전 v01~v03 제작·검증 스크립트 |
 
-메시(`.blend` `.fbx`), 영상(`.mp4`), 체크포인트, 영상 렌더 프레임은 용량 때문에 제외 — 로컬 폴더와 바탕화면 zip 에 있다.
+메시(`.blend` `.fbx`), 영상(`.mp4`), 체크포인트, QA 렌더 프레임, v01~v10 작업 파일은 용량 때문에 git 에서 제외하고
+[`history-v01-v11` 릴리스](https://github.com/ShootTheMoon/macuahuitl-viewmodel/releases/tag/history-v01-v11)에 올려 두었다.
+
+| 릴리스 파일 | 내용 |
+|---|---|
+| `v11_source_blend_fbx_motions.zip` | v11 `.blend` · 베이스 FBX · 메시 · 스킨 · 동작 미리보기 영상 |
+| `v11_checkpoints.zip` / `v11_qa_renders.zip` | 단계별 체크포인트 `.blend`, QA 렌더 프레임 |
+| `v11_snapshot_20260914.zip` · `v11_weapon_only.zip` | 9/14 v11 스냅샷, 무기 단독 패키지 |
+| `v10_rework.zip` · `v01_originals.zip` | v10 리워크, 최초 한손·곤봉·양손 모델 |
+| `pipeline_v0{1,2,3}_*.zip` · `drive_export_20260911.zip` | v01~v03 에셋·렌더 출력 |
+| `viewmodel_wip_20260909.zip` · `v03_preview.mp4` | 초기 뷰모델 WIP, v03 미리보기 |
