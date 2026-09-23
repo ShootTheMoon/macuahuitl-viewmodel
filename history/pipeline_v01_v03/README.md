@@ -1,4 +1,4 @@
-﻿# Pipeline v01-v03
+# Pipeline v01-v03
 
 Blender Python scripts from the first three Macuahuitl iterations, before the v11 two-handed rework.
 Build, export, render, and verification steps for each version.
